@@ -1,7 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://inphobia.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'a collection of technical notes'
 theme = 'hugo-theme-techdoc'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+[params]
+  algolia_search_enable = false
