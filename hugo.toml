@@ -2,6 +2,14 @@ baseURL = 'https://inphobia.github.io/'
 languageCode = 'en-us'
 title = 'a collection of technical notes'
 theme = 'hugo-theme-techdoc'
+
+[menu]
+  [[menu.main]]
+    name = "top"
+    url = "/"
+    weight = 1
+    identifier = 'top'
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
