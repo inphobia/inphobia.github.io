@@ -1,17 +1,23 @@
 baseURL = 'https://inphobia.github.io/'
 languageCode = 'en-us'
 title = 'a collection of technical notes'
-theme = 'hugo-theme-techdoc'
+theme = 'hugo-book'
 
 [menu]
-  [[menu.main]]
-    name = "top"
-    url = "/"
-    weight = 1
-    identifier = 'top'
+  [[menu.home]]
+    name = "about"
+    url = "/about/"
+    weight = 2
+
+[markup.tableOfContents]
+  startLevel = 1
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
 [params]
-  algolia_search_enable = false
+  BookTheme = 'dark'
+  BookSearch = false
+  BookComments = false
+  BookSection = '/'

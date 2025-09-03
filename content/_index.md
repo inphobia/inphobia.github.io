@@ -11,5 +11,9 @@ of effort to add & maintain:
 * a way to handle simple metadata like links & layout.
 
 if you are seeing this you stumbled upon me testing hugo, after having
-figured out that the live version of the content includes way to much
-js for static content.
+found a theme seems to be able to run without the need for js.
+
+next up:
+* mock up structure
+* run some test with how images are handled
+* start adding actual content
