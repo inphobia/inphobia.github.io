@@ -4,11 +4,11 @@ title = 'a collection of technical notes'
 theme = 'hugo-book'
 capitalizeListTitles = false
 
-[menu]
-  [[menu.home]]
-    name = "about"
-    url = "/about/"
-    weight = 2
+#[menu]
+#  [[menu.home]]
+#    name = "about"
+#    url = "/about/"
+#    weight = 2
 
 [markup.tableOfContents]
   startLevel = 1
@@ -21,4 +21,4 @@ capitalizeListTitles = false
   BookTheme = 'dark'
   BookSearch = false
   BookComments = false
-  BookSection = '/'
+#  BookSection = '/'

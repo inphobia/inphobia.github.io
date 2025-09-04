@@ -3,7 +3,7 @@ date = '2025-09-03T21:58:25+02:00'
 draft = false
 title = 'about'
 type = 'docs'
-weight = 50
+weight = 55
 +++
 
 ### stuff used

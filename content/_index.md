@@ -1,6 +1,7 @@
 +++
 date = '2025-09-03T21:45:43+02:00'
 draft = false
+bookFlatSection = 'true'
 title = "home"
 type = "docs"
 +++
