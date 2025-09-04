@@ -7,11 +7,11 @@ type = "docs"
 # a collection of technical notes.
 
 ## disclaimer
-to the best of my knowledge all information compiled here is correct is correct
+to the best of my knowledge all information compiled here is correct
 at the time of writing. even better, it was tested. if something does not work as
 expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
 
-my crystal ball is out for repair, so do provide the needed context when doing so.
+my crystal ball is out for repair, so do provide the needed context.
 
 ## for now
 
@@ -27,6 +27,11 @@ expect typos and engrish.
 
 next up:
 * mock up structure
+  * how about
+    * things i wanted to get done & how i did em
+    * reference lists (sas hw , usage , other hw, etc)
+    * doable with front matter tags i guess
+    * reworking lists seems pretty doable if need be
 * run some test with how images are handled
 * start adding actual content
 
@@ -40,21 +45,26 @@ and tools are os agnostic and will work on other operating systems with some com
 sense. there's a small chance that a page or 2 on [openbsd](https://openbsd.org) appears,
 don't count on it.
 
+##  reminders
+
 
 stuff that should show up here / my todo list
 
 * easy to find, mostly corrent
   * basic sas hba: airflow, bandwidth, external connections
-* how not to flash sata optical drives
   * using dbpoweramp: testing actually bitrotted discs, secure ripping pitfalls
-
+  * full tower cases as drive storage
 * easy to find, mostly outdated (so these are updates or rewrites)
   * which sas hba you need
-  * sas cabling needs
+  * sas cabling needs, quality of cabling, sata devices choking on some sas cables
   * which tool does what & how: sg3_utils, smartmond, storcli
-  * why sas instead of sata
-
+  * why sas instead oof sata
+* hard to find, mostly correct
+  * drive power draw, 12v rails, sata 3.3v pin reassign
+  * going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)
+  * totally safe way to to combine a paperclip and psu
 * hard to find, incorrect, ancient. the things that took effort and time.
+  * optical drives borked power connectors
   * sector size for sas disks (512/520/4096) - and how to change them
     * most likely what you're here for
   * monitoring sas ssd's
