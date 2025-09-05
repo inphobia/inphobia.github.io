@@ -1,5 +1,6 @@
 +++
 title = 'flowcharts'
-weight = 50
-bookFlatSection = true
+weight = 25
+#bookFlatSection = true
+#bookHidden = true
 +++
