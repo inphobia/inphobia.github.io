@@ -1,11 +1,12 @@
-+++
-date = '2025-09-03T21:45:43+02:00'
-draft = false
-bookFlatSection = 'true'
-title = "home"
-type = "docs"
-+++
+---
+date: '2025-09-03T21:45:43+02:00'
+title: a collection of technical notes.
+---
+
 # a collection of technical notes.
+
+> [!WARNING]
+> very much work in progress
 
 ## disclaimer
 to the best of my knowledge all information compiled here is correct
@@ -21,17 +22,14 @@ of effort to add & maintain:
 * a basic formatter to offload html and image generation
 * a way to handle simple metadata like links & layout.
 
-if you are seeing this you stumbled upon me testing hugo, after having
-found a theme seems to be able to run without the need for js.
 
 expect typos and engrish.
 
 next up:
-* mock up structure
-  * how about
-    * things i wanted to get done & how i did em
-    * reference lists (sas hw , usage , other hw, etc)
-    * doable with front matter tags i guess
+* ~~mock up structure~~
+  * ~~how about~~
+    * ~~things i wanted to get done & how i did em~~
+    * ~~reference lists (sas hw , usage , other hw, etc)~~
     * reworking lists seems pretty doable if need be
 * run some test with how images are handled
 * start adding actual content
@@ -76,3 +74,4 @@ stuff that should show up here / my todo list
     * firmware flashing
     * mixed drive use
     * sas expander and towercase as disk enclosure
+

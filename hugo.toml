@@ -3,15 +3,18 @@ languageCode = 'en-us'
 title = 'a collection of technical notes'
 theme = 'hugo-book'
 capitalizeListTitles = false
-
-#[menu]
-#  [[menu.home]]
-#    name = "about"
-#    url = "/about/"
-#    weight = 2
+disablePathToLower = false
+disableKinds = 'taxonomy'
+pluralizeListTitles = false
 
 [markup.tableOfContents]
   startLevel = 1
+
+[outputs]
+  home     = ["html"]
+  page     = ["html"]
+  section  = ["html"]
+  term     = ["html"]
 
 [caches]
   [caches.images]
@@ -21,4 +24,3 @@ capitalizeListTitles = false
   BookTheme = 'dark'
   BookSearch = false
   BookComments = false
-#  BookSection = '/'

@@ -1,11 +1,7 @@
 ---
-title: "software: smartmond, sgtools"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
+title: "sastware"
+weight: 300
+bookCollapseSection: true
 ---
+
+make list with short descr
