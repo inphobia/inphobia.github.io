@@ -1,6 +1,7 @@
 ---
 title: "Imgtest"
 weight: 1
+bookHidden: true
 ---
 
 ![zap](zap.jpg)

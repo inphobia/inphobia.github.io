@@ -24,6 +24,11 @@ built with [hugo](https://gohugo.io/) using the [hugo-book](https://themes.gohug
 * hugo-book: active dev, decent examples, not much poking needed
 * github & git: i'm already on github for stuff
 * github pages: was ... acceptable. point me to a subversion analogue and i'll consider.
+* stuff in general such as hardware, os, software
+  * fits my needs
+  * what i have available
+  * more can be added if you send hardware & cover my commision cost
+    * that's a joke. see issue tracker.
 
 ## failing forward
 

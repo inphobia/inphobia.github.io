@@ -7,6 +7,9 @@ disablePathToLower = false
 disableKinds = 'taxonomy'
 pluralizeListTitles = false
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [markup.tableOfContents]
   startLevel = 1
 
