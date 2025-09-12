@@ -1,5 +1,7 @@
 ---
 title: storcli
+params:
+  eid: storcli
 ---
 
 # storcli

@@ -1,5 +1,7 @@
 ---
 title: 'hba lsi 9300-4i'
+params:
+  eid: lsi-9300-4i
 ---
 ## lsi 9300-4i
 

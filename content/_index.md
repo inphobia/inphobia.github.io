@@ -17,22 +17,25 @@ my crystal ball is out for repair, so do provide the needed context.
 
 ## for now
 
+* create placeholders for all mono's
+* best make archetype for that type first
+* adding content as i go along
+
 ~~atm trying to find & test options to add content with the least amount of effort to add & maintain:~~
 * ~~a basic formatter to offload html and image generation~~
 * ~~a way to handle simple metadata like links & layout.~~
 
-hugo & hugo-book in testing, most likely a keeper
+~~hugo & hugo-book in testing, most likely a keeper~~
 
 expect typos and engrish.
 
-next up:
+~~next up:~~
 * ~~mock up structure~~
   * ~~how about~~
     * ~~things i wanted to get done & how i did em~~
     * ~~reference lists (sas hw , usage , other hw, etc)~~
     * reworking lists seems pretty doable if need be
 * ~~run some test with how images are handled~~
-* start adding actual content
 
 > [!IMPORTANT]
 repeating ad infinitum: this is a log, not yet a guide. any breakage at this time/stage just gets you higher on the darwin awards list for computering.
@@ -158,7 +161,7 @@ this is where guides & stuff start
 ## how to navigate
 * flowcharts are step by step guides on how i tackled what some would call projects
   * they'll make heavy use of links to topic specific pages
-    * would be nice if hugo could rended those inline to make a long & complete chart, perhaps it can
+    * would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
 * pages per topic are intend to cover very specific items only
   * actual pages are collapsed in menu to reduce clutter
   * to be used as reference when you know what you need
@@ -191,6 +194,7 @@ stuff that should show up here / my todo list
   * which tool does what & how: sg3_utils, smartmond, storcli
   * why sas instead oof sata
 * hard to find, mostly correct
+  * crapness of sff-8482 molex power plugs
   * drive power draw, 12v rails, sata 3.3v pin reassign
   * going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)
   * totally safe way to to combine a paperclip and psu

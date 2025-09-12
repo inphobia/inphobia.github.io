@@ -1,5 +1,7 @@
 ---
 title: building sg3_utils for windows
+params:
+  eid: sg3build
 ---
 
 

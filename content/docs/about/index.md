@@ -16,6 +16,8 @@ built with [hugo](https://gohugo.io/) using the [hugo-book](https://themes.gohug
   * site: https://hugo-book-demo.netlify.app/
   * github: https://github.com/alex-shpak/hugo-book
   * on hugo themes: https://themes.gohugo.io/themes/hugo-book/
+* elink shortcode for easy linking
+  * github: https://github.com/boevski/hugo
 
 ## why use x when y is clearly better?
 
