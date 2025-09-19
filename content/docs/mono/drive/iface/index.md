@@ -20,7 +20,7 @@ power and data plug are seperate connectors with a split between the two.
 
 ## sas 
 
-##### sff-8482 (sff-8680) - eia-966 (aka: sas connector)
+### sff-8482 (sff-8680) - eia-966 (aka: sas connector)
 * sff-8482: serial attachment 2x unshielded connector
 * sff-8680: serial attachment 12gb/s 2x unshielded connector 
 
@@ -34,12 +34,12 @@ bottom:
 
 ![sasbottom](sasbottom.jpg)
 
-##### sff-8630 (aka: sas multilink, aka: sas x4)
+### sff-8630 (aka: sas multilink, aka: sas x4)
 * sff-8630: serial attachment 12gb/s 4x unshielded connector
 
 like sff-8482 but with more pins to support multilink, should compatible i think.
 
-##### u.2 nvme - sff-8639 (enterprise pcie)
+### u.2 nvme - sff-8639 (enterprise pcie)
 * sff-8639: multifunctional 12gb/s 6x unshielded connector
 
 looks like sff-8482 but with even more pins to support pci-e.
@@ -54,4 +54,4 @@ bottom:
 
 ![sn100bottom](sn100bottom.jpg)
 
-##### u.3 - sff-ta-1001
+### u.3 - sff-ta-1001

@@ -21,6 +21,8 @@ reuse enterprise drives in home pc.
 ## hardware to add
 * netapp x371 disk
 
+{{<image src="humblebrag.jpg" alt="A placeholder" title="A placeholder" loading="lazy">}}
+
 ## steps
 
 {{% steps %}}
