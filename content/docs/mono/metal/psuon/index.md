@@ -4,7 +4,7 @@ params:
   eid: paperclip
 ---
 
-## why
+# why
 psu won't provide power without this contact
 
 ## how

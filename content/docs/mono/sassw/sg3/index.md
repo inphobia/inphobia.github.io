@@ -4,7 +4,7 @@ params:
   eid: sg3utils
 ---
 
-## sg3 utils
+# sg3 utils
 
 ## why
 contains most of the commands you'll need

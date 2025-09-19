@@ -5,20 +5,20 @@ params:
   eid: iface
 ---
 
-## common drive interface types
+# common drive interface types
 and how to identify them
 
-### connector keying
+## connector keying
 
 will come when i redraw the pictures
 
-### sata
+## sata
 
 power and data plug are seperate connectors with a split between the two.
 
 ![badsata](badsata.jpg)
 
-### sas 
+## sas 
 
 ##### sff-8482 (sff-8680) - eia-966 (aka: sas connector)
 * sff-8482: serial attachment 2x unshielded connector
@@ -26,7 +26,12 @@ power and data plug are seperate connectors with a split between the two.
 
 your basic sas disk connector. both power and data are in a single connector with a notch where the split is between sata connectors. this will prevent you from using sata power and/or data on sas disks. the top side of the notch also has extra pins.
 
+top:
+
 ![sastop](sastop.jpg)
+
+bottom:
+
 ![sasbottom](sasbottom.jpg)
 
 ##### sff-8630 (aka: sas multilink, aka: sas x4)
@@ -38,5 +43,15 @@ like sff-8482 but with more pins to support multilink, should compatible i think
 * sff-8639: multifunctional 12gb/s 6x unshielded connector
 
 looks like sff-8482 but with even more pins to support pci-e.
+
+![sn100](sn100.jpg)
+
+top:
+
+![sn100top](sn100top.jpg)
+
+bottom:
+
+![sn100bottom](sn100bottom.jpg)
 
 ##### u.3 - sff-ta-1001

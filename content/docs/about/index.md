@@ -5,7 +5,7 @@ type: docs
 weight: 550
 ---
 
-## stuff used
+# stuff used
 
 built with [hugo](https://gohugo.io/) using the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, find them here:
 

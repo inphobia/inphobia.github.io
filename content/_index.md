@@ -1,6 +1,7 @@
 ---
 date: '2025-09-03T21:45:43+02:00'
 title: a collection of technical notes.
+bookToC: false
 ---
 
 # a collection of technical notes.
@@ -162,7 +163,7 @@ this is where guides & stuff start
 * flowcharts are step by step guides on how i tackled what some would call projects
   * they'll make heavy use of links to topic specific pages
     * would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
-* pages per topic are intend to cover very specific items only
+* pages per topic are intended to cover very specific items only
   * actual pages are collapsed in menu to reduce clutter
   * to be used as reference when you know what you need
   * building block for flowcharts

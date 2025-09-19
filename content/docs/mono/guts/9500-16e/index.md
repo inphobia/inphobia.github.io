@@ -3,18 +3,18 @@ title: 'hba broadcom 9500-16e'
 params:
   eid: b9500-16e
 ---
-## broadcom 9500-16e
+# broadcom 9500-16e
 
 broadcom branded sas hba with 4 sff-8644 connectors
 
-### 
+## general specs
 * sas 12, 6 & 3gb/s
 * sata 6 & 3gb/s
 * 8.5w power usage
 * airflow 150lfm
 * 55°c preferred tempature, storcli says it can do up to 115°c
 
-### opinion
+## opinion
 
 * pro
   * hba
@@ -31,6 +31,6 @@ broadcom branded sas hba with 4 sff-8644 connectors
   * to many steps to update onboard code (psoc, bios, uefi, those things)
   * external connectors leave little room for airflow through the bracket
 
-### images
+## images
 ![front](9500-16e-f.png)
 ![bracket](9500-16e-bracket.png)

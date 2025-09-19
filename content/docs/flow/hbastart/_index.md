@@ -4,7 +4,7 @@ title: 'first steps in the sas world'
 weight: 20
 ---
 
-## goal
+# goal
 
 reuse enterprise drives in home pc.
 
@@ -16,6 +16,7 @@ reuse enterprise drives in home pc.
   * slot m2_1
   * slot m2_4
   * using heatsinks included with motherboard
+* decent 800w psu
 
 ## hardware to add
 * netapp x371 disk
@@ -32,6 +33,8 @@ reuse enterprise drives in home pc.
 1. ## get cables
 
 1. ## install hba, drivers-firmware-airflow
+
+1. ## read small print (like 9300 doesn't do sata1, 9600 doesn't do sas, etc...)
 
 1. ## storcli & sg3 utils
 

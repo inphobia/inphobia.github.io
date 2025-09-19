@@ -3,7 +3,7 @@ title: 'hba lsi 9300-4i'
 params:
   eid: lsi-9300-4i
 ---
-## lsi 9300-4i
+# lsi 9300-4i
 
 lsi / broadcom branded internal sas hba with 1 sff-8643 connector
 
@@ -17,6 +17,6 @@ lsi / broadcom branded internal sas hba with 1 sff-8643 connector
   * only 1 connector
   * gets warm
 
-### images
+## images
 ![front](9300-f.jpg)
 ![back](9300-b.jpg)
