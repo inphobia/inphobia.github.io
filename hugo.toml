@@ -6,12 +6,15 @@ capitalizeListTitles = false
 disablePathToLower = false
 disableKinds = 'taxonomy'
 pluralizeListTitles = false
+enableGitInfo = true
+titlecasestyle = "none"
 
-[markup.goldmark.renderer]
-  unsafe = true
-
-[markup.tableOfContents]
-  startLevel = 1
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableofcontents]
+    startlevel = 1
+    endlevel = 4
 
 [outputs]
   home     = ["html"]
