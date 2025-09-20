@@ -32,7 +32,7 @@ reuse enterprise drives in home pc.
 1. ### figure out what connection is needed
     have a look at the type of connector your device has to figure out the exact type. {{< elink "iface" "details here" >}}
 
-1. ### select hba - current needs, futureproofing, connectors amount & type
+1. ### select hba
     > [!IMPORTANT]
     > this will be the most important choice you'll make
     #### vendor
@@ -63,6 +63,12 @@ reuse enterprise drives in home pc.
     * non-oem (so actual broadcom) highly suggested over oem versions
     * 2 connectors recommended (so 9500-16i, or 9500-8e/16e)
     * cheaper alternative: lsi 9300-8i or 9300-4i4e
+    #### selection criteria
+    * current needs and possible future needs
+    * price
+    * eol/eos timeframe
+    * amount and type of connectors
+    * power/heat
 
 1. ### get cables
 

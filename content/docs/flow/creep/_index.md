@@ -5,7 +5,7 @@ weight: 30
 
 # goal
 
-something you outgrow your case, sometimes you want to shut down an 10 dvd drive tower when it's not needed. let's see where we can get.
+sometimes you outgrow your case, sometimes you want to shut down an 10 dvd drive tower when it's not needed. let's see where we can get.
 
 ## initial setup
 * working config we made in previous flow

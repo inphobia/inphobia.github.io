@@ -167,6 +167,7 @@ this is where guides & stuff start
   * actual pages are collapsed in menu to reduce clutter
   * to be used as reference when you know what you need
   * building block for flowcharts
+  * catagory names chosen for fun, not clarity
 * nomenclatur
   * prolly need to add a sas jargon dictionary...
 
@@ -193,12 +194,13 @@ stuff that should show up here / my todo list
   * which sas hba you need
   * sas cabling needs, quality of cabling, sata devices choking on some sas cables
   * which tool does what & how: sg3_utils, smartmond, storcli
-  * why sas instead oof sata
+  * why sas instead of sata
 * hard to find, mostly correct
   * crapness of sff-8482 molex power plugs
   * drive power draw, 12v rails, sata 3.3v pin reassign
   * going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)
   * totally safe way to to combine a paperclip and psu
+  * t10 dif stuff (mostly for seagate drives)
 * hard to find, incorrect, ancient. the things that took effort and time.
   * optical drives borked power connectors
   * sector size for sas disks (512/520/4096) - and how to change them
@@ -212,4 +214,8 @@ stuff that should show up here / my todo list
     * mixed drive use
     * sas expander and towercase as disk enclosure
     * 520byte drives and how they make windows storage commands hang
-
+  * hotplugging sata drives on sas controllers and the tiny risk on overvoltage
+* and some words about
+  * ses communication
+  * out of band connector cable
+  * stp (sata tunneling protocol)

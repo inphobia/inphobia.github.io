@@ -13,7 +13,7 @@ titlecasestyle = "none"
   [markup.goldmark.renderer]
     unsafe = true
   [markup.tableofcontents]
-    startlevel = 1
+    startlevel = 2
     endlevel = 4
 
 [outputs]
@@ -30,3 +30,4 @@ titlecasestyle = "none"
   BookTheme = 'dark'
   BookSearch = false
   BookComments = false
+  BookLastChangeLink = 'https://github.com/inphobia/inphobia.github.io/commit/{{ .GitInfo.Hash }}'
