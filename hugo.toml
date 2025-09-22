@@ -31,3 +31,17 @@ titlecasestyle = "none"
   BookSearch = false
   BookComments = false
   BookLastChangeLink = 'https://github.com/inphobia/inphobia.github.io/commit/{{ .GitInfo.Hash }}'
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleanalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.x]
+    disable = true
+  [privacy.youtube]
+    disable = true
