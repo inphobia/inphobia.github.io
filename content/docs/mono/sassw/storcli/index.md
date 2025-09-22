@@ -19,7 +19,7 @@ needed for most interaction like:
 can be downloaded from https://www.broadcom.com/
 make sure your version somewhat matches your firmware. i'm using "storcli sas3.5 p36" with a 9500-16e running uefi p36.
 
-## what
+## naming
 while broadcom all refers to this program as "storcli", it can also be known as storcli64 as you can see in these examples.
 
 ## examples
