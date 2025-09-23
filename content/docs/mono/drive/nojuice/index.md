@@ -1,6 +1,7 @@
 ---
 date: 2025-09-19T06:04:05+02:00
 title: powered off ssd and data retention
+description: powered off ssd and data retention
 params:
   eid: nojuice
 ---

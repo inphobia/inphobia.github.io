@@ -1,6 +1,7 @@
 ---
 date: 2025-09-19T07:07:17+02:00
 title: dell perc h730
+description: dell perc h730
 params:
   eid: perc730
 ---

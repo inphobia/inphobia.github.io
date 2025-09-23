@@ -1,5 +1,6 @@
 ---
 title: 'hba broadcom 9500-16e'
+description: 'hba broadcom 9500-16e'
 params:
   eid: b9500-16e
 ---

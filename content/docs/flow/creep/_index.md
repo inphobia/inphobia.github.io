@@ -1,5 +1,6 @@
 ---
 title: 'adding external devices'
+description: 'adding external devices'
 weight: 30
 ---
 

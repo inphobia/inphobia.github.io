@@ -1,6 +1,7 @@
 ---
 date: 2025-09-19T07:07:38+02:00
 title: cisco ucsc mraid12g
+description: cisco ucsc mraid12g
 params:
   eid: mraid12g
 ---

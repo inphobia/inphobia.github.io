@@ -1,6 +1,7 @@
 ---
 title: "audio cd ripping setup"
 name: "cdrip"
+decription: audio cd ripping setup
 type: "docs"
 weight: 80
 bookHidden: false
