@@ -1,5 +1,6 @@
 ---
 title: smartmontools
+description: smartmontools
 params:
   eid: smartmon
 ---

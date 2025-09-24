@@ -1,5 +1,6 @@
 ---
 title: power on psu
+description: power on psu
 params:
   eid: paperclip
 ---
