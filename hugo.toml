@@ -13,7 +13,7 @@ titlecasestyle = "none"
   [markup.goldmark.renderer]
     unsafe = true
   [markup.tableofcontents]
-    startlevel = 2
+    startlevel = 1
     endlevel = 4
 
 [outputs]
@@ -27,6 +27,7 @@ titlecasestyle = "none"
     dir = ':cacheDir/images'
 
 [params]
+  BookSection = 'docs'
   BookTheme = 'dark'
   BookSearch = false
   BookComments = false

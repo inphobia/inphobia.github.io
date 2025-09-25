@@ -12,7 +12,7 @@ reuse enterprise drives in home pc.
 ## initial setup
 * windows 11 24h2
 * asrock {{< elink "x670e" "x670e pg lightning" >}} , uefi 3.30
-* ryzen 8700g
+* amd ryzen 7 8700g
 * wd black sn850x 8tb - no heatsink version
   * slot m2_1
   * slot m2_4
@@ -22,7 +22,7 @@ reuse enterprise drives in home pc.
 ## hardware to add
 * netapp x371 disk
 
-{{<image src="humblebrag.jpg" alt="A placeholder" title="A placeholder" loading="lazy">}}
+![](humblebrag.jpg)
 
 ## steps
 
