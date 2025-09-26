@@ -1,6 +1,7 @@
 ---
 title: sg3 utils
 description: sg3 utils
+bookCollapseSection: true
 params:
   eid: sg3utils
 ---

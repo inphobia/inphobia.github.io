@@ -1,6 +1,7 @@
 ---
 title: storcli
 description: storcli
+bookCollapseSection: true
 params:
   eid: storcli
 ---

@@ -8,7 +8,7 @@ bookToC: false
 # a collection of technical notes.
 
 > [!WARNING]
-> very much work in progress
+> work in progress
 
 ## disclaimer
 to the best of my knowledge all information compiled here is correct

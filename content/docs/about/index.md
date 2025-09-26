@@ -10,23 +10,23 @@ params:
 
 # stuff used
 
-built with [hugo](https://gohugo.io/) using the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, find them here:
+built around the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, which implies using [hugo](https://gohugo.io/), find them here:
 
-* hugo
-  * site: https://gohugo.io/
-  * github: https://github.com/gohugoio
 * hugo-book theme
   * site: https://hugo-book-demo.netlify.app/
   * github: https://github.com/alex-shpak/hugo-book
   * on hugo themes: https://themes.gohugo.io/themes/hugo-book/
+* hugo
+  * site: https://gohugo.io/
+  * github: https://github.com/gohugoio
 * elink shortcode for easy linking
   * github: https://github.com/boevski/hugo
 
 ## why use x when y is clearly better?
 
 * see: [this](#failing-forward)
+* hugo-book: active dev, good examples, not much poking needed, actually does what is says.
 * hugo: i'm bad at markdown, i'm worse at many other things. 20 mins from markdown to ugly site: win!
-* hugo-book: active dev, decent examples, not much poking needed
 * github & git: i'm already on github for stuff
 * github pages: was ... acceptable. point me to a subversion analogue and i'll consider.
 * stuff in general such as hardware, os, software
