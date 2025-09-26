@@ -3,6 +3,8 @@ date: '2025-09-04T16:54:32+02:00'
 title: 'first steps in the sas world'
 description: 'first steps in the sas world'
 weight: 20
+params:
+  eid: here
 ---
 
 # goal
@@ -71,13 +73,23 @@ reuse enterprise drives in home pc.
     * amount and type of connectors
     * power/heat
 
-1. ### get cables
+1. ### get cables (flesh out)
+    * sff-8087/8088
+    * sff-8643/8644
+    * sff-8482
+    * sata
 
+1. ### software needed
+   you will need a few tools to get everything set up. they're freely available, these 2 are the most important.
+   #### {{< elink "storcli" "storcli" >}}
+   storcli is the software you'll need to interface with broadcom cards (hba and raid)
+   #### {{< elink "sg3utils" "sg3utils" >}}
+   sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features.
 1. ### install hba, drivers-firmware-airflow
-
-1. ### read small print (like 9300 doesn't do sata1, 9600 doesn't do sas, etc...)
-
-1. ### storcli & sg3 utils
+    * {{< elink "x670e" "finding a pcie slot" >}}
+    * airflow
+    * {{< elink "blitz" "upgrading adapter firmware" >}}
+    * drivers
 
 1. ### connect device
 

@@ -1,31 +1,14 @@
 ---
-title: storcli
-description: storcli
+date: 2025-09-26T02:24:22+02:00
+title: safe to paste storcli examples
+description: safe to paste storcli examples
 params:
-  eid: storcli
+  eid: ezcp
 ---
 
-# what
+# todo better wording
 
-storcli: the tool to interact with your broadcom cards.
-
-## why
-needed for most interaction like:
-* updating fw
-* checking controller
-* checking disks
-
-
-## where
-can be downloaded from https://www.broadcom.com/
-make sure your version somewhat matches your firmware. i'm using "storcli sas3.5 p36" with a 9500-16e running uefi p36.
-
-## naming
-while broadcom all refers to this program as "storcli", it can also be known as storcli64 as you can see in these examples.
-
-## examples
-### show your controller
-
+## show basics
 ```
 >storcli64.exe show
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -50,7 +33,7 @@ Ctl Model        AdapterType   VendId DevId SubVendId SubDevId PCI Address
 ---------------------------------------------------------------------------
 ```
 
-### show it's temperature
+## show adapter temperature
 ```
 >storcli64.exe /c0 show temperature
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -69,7 +52,7 @@ Ctrl_Prop                       Value
 ROC temperature(Degree Celsius) 50
 --------------------------------------
 ```
-### show only help commands related to hba mode
+## show only help commands related to hba mode
 ```
 >storcli64.exe -help it
 
@@ -172,7 +155,7 @@ storcli /cx db set {[master=<val>] [event EventLogQualifier=<val> EventValue=<va
            [mpi loginfo=<val> iocstatus=<val>] [ scsi sensekey=<val> asc=<val> ascq=<val>]}
 
 ```
-### show most info from all enclosures and disks on controller 0
+## show most info from all enclosures and disks on controller 0
 ```
 >storcli64.exe /c0/eall/sall show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -304,7 +287,7 @@ PhyNo InvldDwrdCount RungDispartyErrCnt LosOfDwrdSynCnt PhyResetPrbCnt
 PhyNo-Phy Number |InvalDwdCnt-Invalid Dword count | RungDispartyErrCnt-Running Disparity error count
 LosOfDwrdSynCnt-Loss of Dword synchronization count | PhyResetPrbCnt-Phy reset problem count
 ```
-### all phy info
+## all phy info
 ```
 >storcli64.exe /c0/pall show
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
