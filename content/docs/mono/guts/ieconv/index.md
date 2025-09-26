@@ -13,6 +13,7 @@ sff86448plt2
 * 2 sff-8644 connectors
 * 2 sff-8643 connectors
 * no vented bracket
+* bracket could also be a thighter fit
 ## reason
 an inexpensive option to interchange internal and external ports 
 ## images

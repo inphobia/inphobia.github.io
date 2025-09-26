@@ -11,9 +11,10 @@ bookToC: false
 > work in progress
 
 ## disclaimer
-to the best of my knowledge all information compiled here is correct
-at the time of writing. even better, it was tested. if something does not work as
-expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
+> [!IMPORTANT]
+> to the best of my knowledge all information compiled here is correct at the time of writing. even better, it was tested.
+
+if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
 
 my crystal ball is out for repair, so do provide the needed context.
 

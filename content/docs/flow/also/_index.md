@@ -16,5 +16,8 @@ there are a lot of opinions on this, few are backed up by facts.
 ## todo how optical media is not binary
 aka red book audio stuff
 
+## what are you actually using
+this is a valid question. {{< elink "wutme" "a current-ish overview of my setup can be found here" >}}
+
 ## realforce
-{{< elink "topre" "realforce iso 105keys" >}}
+{{< elink "topre" "realforce 1 iso 105keys" >}}
