@@ -103,3 +103,8 @@ Version string: 2.48 20230606
 
 ```
 
+## shortcut if you're lazy
+i've made clone of the official sg3_utils repo with a workflow to crosscompile windows binaries. i have no intention on actively maintaining this, but
+the github workflow should be pretty straightforward so you can reproduce it if you wish.
+
+[https://github.com/inphobia/sg3_utils](https://github.com/inphobia/sg3_utils)
