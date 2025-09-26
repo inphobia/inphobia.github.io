@@ -29,7 +29,7 @@ this is a log, not yet a guide. any breakage at this time/stage just gets you hi
 
 2. ## likely what you're here for: going from 520 to 512byte
    * find disk {{< elink "cyclops" "example" >}}
-   * format {{< elink "resist" "example" >}}
+   * format {{< elink "redist" "example" >}}
 
 {{% /steps %}}
 
