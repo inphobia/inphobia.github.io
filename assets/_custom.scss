@@ -1,4 +1,5 @@
-a {text-decoration: underline;}
+a[href] {text-decoration-line: underline;}
+a[href]:visited {color: var(--color-visited-link);}
 
 h1,
 h2,

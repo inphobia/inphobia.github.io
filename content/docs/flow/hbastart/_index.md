@@ -73,7 +73,7 @@ reuse enterprise drives in home pc.
     * amount and type of connectors
     * power/heat
 
-1. ### get cables (flesh out)
+1. ### get cables (todo)
     * sff-8087/8088
     * sff-8643/8644
     * sff-8482

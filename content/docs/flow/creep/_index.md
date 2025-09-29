@@ -2,9 +2,10 @@
 title: 'adding external devices'
 description: 'adding external devices'
 weight: 30
+params:
+  eid: creep
 ---
-
-# goal
+# todo goal
 
 sometimes you outgrow your case, sometimes you want to shut down an 10 dvd drive tower when it's not needed. let's see where we can get.
 

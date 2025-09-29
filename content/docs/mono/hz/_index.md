@@ -4,6 +4,8 @@ title: hz
 description: hz
 weight: 200
 bookCollapseSection: true
+params:
+  eid: hz
 ---
 
 ### optical drives

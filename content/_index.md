@@ -1,38 +1,32 @@
 ---
 date: '2025-09-03T21:45:43+02:00'
-title: a collection of technical notes.
-description: a collection of technical notes.
+title: a collection of technical notes
+description: a collection of technical notes
 bookToC: false
+params:
+  eid: technotes
 ---
 
 # a collection of technical notes.
 
 > [!WARNING]
-> work in progress
+> work in progress  
+> typos and engrish ahead
 
 ## disclaimer
 > [!IMPORTANT]
-> to the best of my knowledge all information compiled here is correct at the time of writing. even better, it was tested.
+> to the best of my knowledge all information compiled here is correct at the time of writing.  
+> even better, it was tested.
 
 if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
 
 my crystal ball is out for repair, so do provide the needed context.
 
-## expect typos and engrish.
-
-> [!IMPORTANT]
-this is a log, not yet a guide. any breakage at this time/stage just gets you higher on the darwin awards list for computering.
-
-{{% steps %}}
-1. ## i just copied your example and now nothing works!
-   > [!CAUTION]
-   drop me a note and i'll send some more things you can blindly paste.
-
-2. ## likely what you're here for: going from 520 to 512byte
-   * find disk {{< elink "cyclops" "example" >}}
-   * format {{< elink "redist" "example" >}}
-
-{{% /steps %}}
+## reformat sas drives to 512/4096 block size
+the 2 needed steps:
+* find disk {{< elink "cyclops" "example" >}}
+* format {{< elink "redist" "example" >}}  
+still need to fully write out these steps
 
 > [!NOTE]
 this is where guides & stuff start
@@ -49,7 +43,7 @@ many pages are still being fleshed out and are empty or incomplete, as indicated
     * would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
 * pages per topic are intended to cover very specific items only
   * actual pages are collapsed in menu to reduce clutter
-  * can used as reference when you know what you need
+  * can be used as reference when you know what you need
   * building block for flowcharts
   * catagory names chosen for fun, not clarity
 * nomenclatur
@@ -65,7 +59,7 @@ and tools are os agnostic and will work on other operating systems with some com
 sense. there's a small chance that a page or 2 on [openbsd](https://openbsd.org) appears,
 don't count on it.
 
-##  reminders
+## global todo list
 
 
 stuff that should show up here / my todo list
@@ -82,14 +76,13 @@ stuff that should show up here / my todo list
 * hard to find, mostly correct
   * crapness of sff-8482 molex power plugs
   * drive power draw, 12v rails, sata 3.3v pin reassign
-  * going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)
+  * ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
   * totally safe way to to combine a paperclip and psu
   * t10 dif stuff (mostly for seagate drives)
 * hard to find, incorrect, ancient. the things that took effort and time.
   * optical drives borked power connectors
   * sector size for sas disks (512/520/4096) - and how to change them
-    * most likely what you're here for
-  * monitoring sas ssd's
+  * monitoring sas drives
   * flashing sas drives with more recent firmware
   * how not to flash optical drives
   * sas expander stuff:
@@ -100,6 +93,7 @@ stuff that should show up here / my todo list
     * 520byte drives and how they make windows storage commands hang
   * hotplugging sata drives on sas controllers and the tiny risk on overvoltage
 * and some words about
+  * sata support in netapp shelves (or any shelf for that matter)
   * ses communication
   * out of band connector cable
   * stp (sata tunneling protocol)

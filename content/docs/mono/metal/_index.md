@@ -4,5 +4,7 @@ title: metal
 description: metal
 weight: 250
 bookCollapseSection: true
+params:
+  eid: metal
 ---
 # word

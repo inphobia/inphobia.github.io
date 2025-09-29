@@ -4,4 +4,6 @@ title: guts
 description: guts
 weight: 150
 bookCollapseSection: true
+params:
+  eid: guts
 ---

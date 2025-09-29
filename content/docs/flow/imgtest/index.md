@@ -4,6 +4,8 @@ title: "imgtest"
 description: imgtest
 weight: 1
 bookHidden: true
+params:
+  eid: imgtest
 ---
 
 ![zap](zap.jpg)
