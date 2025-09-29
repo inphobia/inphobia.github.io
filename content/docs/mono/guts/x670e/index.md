@@ -14,9 +14,9 @@ pcie slot 3 is the optimal place for your hba if you plan on using pcie slot 1.
 ### reasons
 * pcie lanes directly from cpu
 * pcie 4.0
-* physical x16 slot, x4 lanes
+* physical x16 slot, 4 data lanes
 * clearance under the slot for airflow
- * included heatsink for slot m.2_4 low profile enough to not interfere with most hba's
+  * [included heatsink](#photo-side-view) for slot m2_4 is low profile
 
 ## images
 ### diagram
@@ -27,5 +27,7 @@ pcie slot 3 is the optimal place for your hba if you plan on using pcie slot 1.
 ![](x670e-pcie-cpu.png)
 ### expansion slot outtake
 ![](x670e-pcie.png)
-### photo
+### photo: top view
 ![](x670e-photo.png)
+### photo: side view
+![sideview](x670e-photo3.png)

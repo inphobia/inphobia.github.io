@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'a collection of technical notes'
 theme = 'hugo-book'
 capitalizeListTitles = false
-disablePathToLower = true
+disablePathToLower = false
 disableKinds = 'taxonomy'
 pluralizeListTitles = false
 enableGitInfo = true
@@ -26,9 +26,15 @@ titlecasestyle = "none"
   [caches.images]
     dir = ':cacheDir/images'
 
+[imaging]
+  [imaging.exif]
+    disableDate = true
+    disableLatLong = true
+    excludeFields = '.*'
+
 [params]
   BookSection = 'docs'
-  BookTheme = 'dark'
+  BookTheme = 'auto'
   BookSearch = false
   BookComments = false
   BookLastChangeLink = 'https://github.com/inphobia/inphobia.github.io/commit/{{ .GitInfo.Hash }}'

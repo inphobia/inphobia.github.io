@@ -81,7 +81,7 @@ based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451
 
 these devices get powered on when needed.
 
-### netap ds224c diskshelf
+### netapp ds224c diskshelf
  * 2 shelves
  * 2 powersupplies each
  * 2 iom12a fw0401 each
