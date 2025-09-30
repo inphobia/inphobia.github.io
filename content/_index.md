@@ -9,6 +9,21 @@ params:
 
 # a collection of technical notes.
 
+> [!INFO]
+> for those who got here from a post or 2 i replied to:  
+> the content that's online needs some organization, you can
+> use the next button on every page except this one and
+> cycle through all content. there are no trackers except the
+> one github might use, almost no js & full source is in my repo.  
+>  
+> {{< elink "here" "here" >}} is where to start   
+>  
+> things with todo are perdonal reminders. you'll see all content
+> finished or not this way.  
+> or whatever
+>  
+> take care & control
+
 > [!WARNING]
 > work in progress  
 > typos and engrish ahead

@@ -7,6 +7,24 @@ params:
   eid: here
 ---
 
+> [!INFO]
+> for those who got here from a post or 2 i replied to:  
+> the content that's online needs some organization, you can
+> use the next button (bottom right each page) on every page and 
+> cycle through all content. all content but no context, the stuff  
+> under flowcharts are (gonna) be somewhat decent guides.  
+> there are no trackers except the
+> one github might use, almost no js & full source is in my repo.
+>
+> atm this page has the most useful info, more is coming
+>
+> things with todo are personal reminders. you'll see all content
+> finished or not this way. 
+> 
+>
+> take care & control
+
+
 # goal
 
 reuse enterprise drives in home pc.
