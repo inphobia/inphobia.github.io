@@ -1,3 +1,4 @@
+{{- /* remove whitespaces */ -}}
 {{- $linkParts := .Get 0 | urls.Parse -}}
 {{- $elinkText := .Get 1 -}}
 
@@ -53,3 +54,4 @@
 {{- if gt ($.Scratch.Get "counter") 1 -}}
    {{- warnf "Duplicated elink: %q in Language: %q and files: %q" $eid ($.Scratch.Get "latestLang") ($.Scratch.Get "duplicatedIDFilenames") -}}
 {{- end -}}
+{{- /* remove whitespaces */ -}}

@@ -10,7 +10,6 @@ params:
 # a collection of technical notes.
 
 > [!INFO]
-> for those who got here from a post or 2 i replied to:  
 > the content that's online needs some organization, you can
 > use the next button on every page except this one and
 > cycle through all content. there are no trackers except the
@@ -18,7 +17,7 @@ params:
 >  
 > {{< elink "here" "here" >}} is where to start   
 >  
-> things with todo are perdonal reminders. you'll see all content
+> things with todo are personal reminders. you'll see all content
 > finished or not this way.  
 > or whatever
 >  

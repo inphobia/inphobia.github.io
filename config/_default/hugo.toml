@@ -37,6 +37,7 @@ titlecasestyle = "none"
   BookTheme = 'auto'
   BookSearch = false
   BookComments = false
+  BookFavicon = "favicon.svg"
   BookLastChangeLink = 'https://github.com/inphobia/inphobia.github.io/commit/{{ .GitInfo.Hash }}'
 
 [privacy]

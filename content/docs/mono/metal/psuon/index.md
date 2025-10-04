@@ -4,8 +4,10 @@ description: power on psu
 params:
   eid: paperclip
 ---
+# todo
+obviously not a smart idea without context
 
-# why
+## why
 psu won't provide power without this contact
 
 ## how

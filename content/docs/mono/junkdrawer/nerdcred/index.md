@@ -2,6 +2,7 @@
 date: 2025-09-26T03:17:37+02:00
 title: nerdcred
 description: nerdcred
+bookhidden: true
 params:
   eid: nerdcred
 ---
