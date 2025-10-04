@@ -5,13 +5,12 @@ params:
   eid: x670e
 ---
 # asrock x670e pg lightning
-
 asrock am5 motherboard using the amd x670e chipset for amd ryzen 7000, 8000 & 9000 series cpus.
 
 ## which slot for the hba
 pcie slot 3 is the optimal place for your hba if you plan on using pcie slot 1.
 
-### reasons
+## reasons
 * pcie lanes directly from cpu
 * pcie 4.0
 * physical x16 slot, 4 data lanes
