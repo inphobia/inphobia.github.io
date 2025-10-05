@@ -34,7 +34,7 @@ titlecasestyle = "none"
 
 [params]
   BookSection = 'docs'
-  BookTheme = 'auto'
+  BookTheme = 'dark'
   BookSearch = false
   BookComments = false
   BookFavicon = "favicon.svg"

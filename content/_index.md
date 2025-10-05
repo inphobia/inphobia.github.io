@@ -6,7 +6,6 @@ bookToC: false
 params:
   eid: technotes
 ---
-
 # a collection of technical notes.
 
 > [!INFO]

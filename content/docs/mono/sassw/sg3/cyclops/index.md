@@ -5,8 +5,30 @@ description: sg3 utils starter
 params:
   eid: cyclops
 ---
-
 # todo
+finding drives
+
+## simple scan
+```
+sg_scan.exe
+PD0     [S]     NETAPP    X670_S164315TATE  NA55  S40TNY0M105275
+PD1     [E]     WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_4071_28F4.
+PD2     [C]     WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_4071_2C80.
+```
+
+## scan with bus and adapter
+
+```
+sg_scan.exe -bs
+PD0     [S]     <Sas  >  NETAPP    X670_S164315TATE  NA55  S40TNY0M105275
+PD1     [E]     <NVMe >  WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_4071_28F4.
+PD2     [C]     <NVMe >  WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_4071_2C80.
+
+SCSI2:0,12,0   claimed=1 pdt=0h          NETAPP    X670_S164315TATE  NA55
+SCSI2:0,16,0   claimed=0 pdt=dh          BROADCOM  VirtualSES  03
+SCSI3:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
+SCSI4:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
+```
 
 ## find drive
 ```
