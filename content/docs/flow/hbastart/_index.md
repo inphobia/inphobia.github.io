@@ -28,76 +28,78 @@ reuse enterprise drives in home pc.
 
 ![](humblebrag.jpg)
 
-## steps
+## let's get going
 
 {{% steps %}}
-1. ### find a device you want to connect.
+1. ## find a device you want to connect.
     in general this should be a sata or sas device. sata express and pcie devices can already be excluded.
 
-1. ### figure out what connection is needed
+1. ## figure out what connection is needed
     have a look at the type of connector your device has to figure out the exact type. {{< elink "iface" "details here" >}}
 
-1. ### select hba
+1. ## select hba
     > [!IMPORTANT]
     > this will be the most important choice you'll make
-    #### vendor
+    ### vendor
     there are only 3 valid players left on the market: broadcom, microchip & atto.
-    ##### broadcom
-    * by far the dominant player
+    #### broadcom
+    * the dominant player when it comes to hba and raid cards
     * their older products can are sold under the "lsi" or "avago" brand name
-    * almost all hba's and raid controller from vendors like hp, dell, ibm, lenovo, etc... are actually broadcom devices. 
-    ##### microchip
+    * most hba's and raid controller from vendors like hp, dell, ibm, lenovo, etc... are actually broadcom devices. 
+    #### microchip
     * also known as microsemi, adaptec & pmc-sierra
-    * no current oem cards that i know of
-    * market share tiny compared to broadcom but they're trying to make a comeback
-    ##### atto
-    * no experience with their hba's
-    #### controller mode
+    * not commonely seen as oem cards
+    * market share compared to broadcom but they're trying to make a comeback
+    #### atto
+    * no experience with their hba's, their sas to fibre channel bridges are fun.
+    ### controller mode
     * you want a "hba" controller, also known as "it mode" for older controllers.
     * you do not want a raid controller, even if it's running in jbod mode.
     * you do not want a "sas expander"
-    #### the fine print
-    there might be some non obvious limitations for certain devices. they are mentioned in the manuals, which i recommend reading. at this stage in your journey they might not stand out, so here is the {{< elink "oops" "list of caveats" >}} i've found.
-    #### some controllers i have used
+    ### the fine print
+    there might be some non obvious limitations for certain devices. they are mentioned in the manuals, which i recommend reading. at this stage in your journey they might not stand out, so here is the {{< elink "oops" "list of caveats" >}} i've run into till now.
+    ### some controllers i have used
     * {{< elink "lsi-9300-4i" "lsi 9300-4i (hba)" >}}
     * {{< elink "b9500-16e" "broadcom 9500-16e (hba)" >}}
     * {{< elink "mraid12g" "cisco mraid 12g (raid)" >}}
     * {{< elink "perc730" "dell perc h730 (raid)" >}}
     > [!IMPORTANT]
-    > current advise: broadcom 9500 series
+    > current advise: broadcom 9500 series  
+    > on technical merit, at even that feels wrong
     * non-oem (so actual broadcom) highly suggested over oem versions
     * 2 connectors recommended (so 9500-16i, or 9500-8e/16e)
     * cheaper alternative: lsi 9300-8i or 9300-4i4e
-    #### selection criteria
+    ### selection criteria
     * current needs and possible future needs
     * price
     * eol/eos timeframe
     * amount and type of connectors
     * power/heat
-
-1. ### get cables (todo)
+1. ## get cables (todo)
     * sff-8087/8088
     * sff-8643/8644
     * sff-8482
     * sata
-
-1. ### software needed
+    > [!IMPORTANT]
+    > not yet, this is a placeholder
+    {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you wan't to play along you'll need a hba{{% /details %}}
+1. ## software needed
    you will need a few tools to get everything set up. they're freely available, these 2 are the most important.
-   #### {{< elink "storcli" "storcli" >}}
+   ### {{< elink "storcli" "storcli" >}}
    storcli is the software you'll need to interface with broadcom cards (hba and raid)
-   #### {{< elink "sg3utils" "sg3utils" >}}
+   ### {{< elink "sg3utils" "sg3utils" >}}
    sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features.
-1. ### install hba, drivers-firmware-airflow
+1. ## install hba, drivers-firmware-airflow
     * {{< elink "x670e" "finding a pcie slot" >}}
     * airflow
     * {{< elink "blitz" "upgrading adapter firmware" >}}
     * drivers
 
-1. ### connect device
+1. ## connect device
 
-1. ### initialize, update fw, reformat
+1. ## initialize, update fw, reformat
 
-1. ### profit
+1. ## profit
 
 
 {{% /steps %}}
