@@ -6,11 +6,13 @@ params:
   eid: perc730
 ---
 # dell perc h730
+dell perc h730 (i think) with 1gb cache and battery backup
 
-dell perc h730 with 1gb battery (i think)
+# todo perhaps h730p
 
 ## general specs
-* lsi sas3108 (megaraid 9300 series - likely 9361-8i)
+* controller: lsi sas3108 (megaraid 9300 series - likely 9361-8i)
+* host interface: pcie3
 * sas 12, 6 & 3gb/s
 * sata 6 & 3gb/s
 
@@ -19,12 +21,13 @@ dell perc h730 with 1gb battery (i think)
 * pro
   * saved from eol server, so free
   * battery pack
-  * 2* sff*8643
+  * supports 4k sector size drives
+  * 2 sff-8643
 * con
-  * pcie 3
+  * pcie3
   * gets very hot quickly
-  * raid card, not hba. didn't try to reflash to hba mode.
-  * did not come with full sized bracket
+  * raid card, not hba. didn't try to reflash to hba mode
+    * could not get the "switch to hba mode" working
   * actual battery, no non volatile memory
 
 ## images

@@ -1,6 +1,6 @@
 ---
-title: 'relevant but homeless'
-description: 'relevant but homeless'
+title: relevant but homeless
+description: relevant but homeless
 weight: 15
 params:
   eid: orhere

@@ -5,19 +5,17 @@ description: cisco ucsc mraid12g
 params:
   eid: mraid12g
 ---
-
 # cisco ucsc mraid12g
-
 cisco ucsc mraid12g with 1gb cache
 
 ## general specs
+* connectors: 2 sff-8643
 
 ## opinion
-
 * pro
   * saved from eol server, so free
   * nvme backup
-  * 2* sff*8643
+  * connectors can be bundled
 * con
   * gets **stupid** hot
   * raid card, not hba. didn't try to reflash to hba mode.

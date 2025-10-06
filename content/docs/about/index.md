@@ -7,7 +7,6 @@ weight: 550
 params:
   eid: about
 ---
-
 # stuff used
 
 built around the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, which implies using [hugo](https://gohugo.io/), find them here:

@@ -19,8 +19,6 @@ params:
 > things with todo are personal reminders. you'll see all content
 > finished or not this way.  
 > or whatever
->  
-> take care & control
 
 > [!WARNING]
 > work in progress  
@@ -32,7 +30,6 @@ params:
 > even better, it was tested.
 
 if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
-
 my crystal ball is out for repair, so do provide the needed context.
 
 ## reformat sas drives to 512/4096 block size
