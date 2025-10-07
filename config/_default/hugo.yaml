@@ -1,0 +1,60 @@
+baseURL: https://inphobia.github.io/
+languageCode: en-us
+title: a collection of technical notes.
+theme: hugo-book
+capitalizeListTitles: false
+disablePathToLower: false
+disableKinds: taxonomy
+pluralizeListTitles: false
+enableGitInfo: true
+titlecasestyle: none
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableofcontents:
+    startlevel: 2
+    endlevel: 4
+
+outputs:
+  home:
+    - html
+  page:
+    - html
+  section:
+    - html
+  term:
+    - html
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+imaging:
+  exif:
+    disableDate: true
+    disableLatLong: true
+    excludeFields: .*
+
+params:
+  BookSection: docs
+  BookTheme: auto
+  BookSearch: false
+  BookComments: false
+  BookFavicon: favicon.svg
+  BookLastChangeLink: https://github.com/inphobia/inphobia.github.io/commit/{{ .GitInfo.Hash }}
+
+privacy:
+  disqus:
+    disable: true
+  googleanalytics:
+    disable: true
+  instagram:
+    disable: true
+  vimeo:
+    disable: true
+  x:
+    disable: true
+  youtube:
+    disable: true
