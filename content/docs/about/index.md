@@ -31,7 +31,7 @@ built around the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, 
 * stuff in general such as hardware, os, software
   * fits my needs
   * what i have available
-  * more can be added if you send hardware & cover my commision cost
+  * more can be added if you send hardware & cover my commission cost
     * that's a joke. see issue tracker.
 
 ## failing forward

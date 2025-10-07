@@ -55,8 +55,8 @@ many pages are still being fleshed out and are empty or incomplete, as indicated
   * actual pages are collapsed in menu to reduce clutter
   * can be used as reference when you know what you need
   * building block for flowcharts
-  * catagory names chosen for fun, not clarity
-* nomenclatur
+  * category names chosen for fun, not clarity
+* nomenclature
   * prolly need to add a sas jargon dictionary...
 
 ## this all started with me wanting to rip a few cds
@@ -74,7 +74,7 @@ don't count on it.
 
 stuff that should show up here / my todo list
 
-* easy to find, mostly corrent
+* easy to find, mostly correct
   * basic sas hba: airflow, bandwidth, external connections
   * using dbpoweramp: testing actually bitrotted discs, secure ripping pitfalls
   * full tower cases as drive storage

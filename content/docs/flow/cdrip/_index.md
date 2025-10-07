@@ -1,7 +1,7 @@
 ---
 title: audio cd ripping setup
 name: cdrip
-decription: audio cd ripping setup
+description: audio cd ripping setup
 weight: 80
 params:
   eid: cdrip

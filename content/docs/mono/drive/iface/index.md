@@ -33,7 +33,7 @@ keying refers to the physical layout of the connectors so it's not physically po
 ## close ups
 
 ### sata
-power and data plug are seperate connectors with a split between the two.
+power and data plug are separate connectors with a split between the two.
 
 ![badsata](badsata.jpg)
 

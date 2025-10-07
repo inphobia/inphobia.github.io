@@ -48,8 +48,8 @@ reuse enterprise drives in home pc.
     * most hba's and raid controller from vendors like hp, dell, ibm, lenovo, etc... are actually broadcom devices. 
     #### microchip
     * also known as microsemi, adaptec & pmc-sierra
-    * not commonely seen as oem cards
-    * market share compared to broadcom but they're trying to make a comeback
+    * not commonly seen as oem cards
+    * less market share compared to broadcom but they're trying to make a comeback
     #### atto
     * no experience with their hba's, their sas to fibre channel bridges are fun.
     ### controller mode
@@ -82,7 +82,7 @@ reuse enterprise drives in home pc.
     * sata
     > [!IMPORTANT]
     > not yet, this is a placeholder
-    {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you wan't to play along you'll need a hba{{% /details %}}
+    {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you want to play along you'll need a hba{{% /details %}}
 1. ## software needed
    you will need a few tools to get everything set up. they're freely available, these 2 are the most important.
    ### {{< elink "storcli" "storcli" >}}
