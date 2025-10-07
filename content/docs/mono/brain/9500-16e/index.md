@@ -14,6 +14,8 @@ broadcom branded sas hba with 4 sff-8644 connectors
 * sas 12, 6 & 3gb/s
 * sata 6 & 3gb/s
 * pcie via x4 switches
+
+## power and cooling
 * 8.5w power usage
 * airflow 150lfm
 * 55°c preferred temperature, storcli says it can do up to 115°c
