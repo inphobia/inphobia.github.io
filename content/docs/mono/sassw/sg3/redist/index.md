@@ -1,7 +1,7 @@
 ---
 date: 2025-09-26T02:40:54+02:00
-title: reformatting drives to usable block sizes
-description: reformatting drives to usable block sizes
+title: reformatting drives to usable sector sizes
+description: reformatting drives to usable sector sizes
 params:
   eid: redist
 ---

@@ -32,7 +32,7 @@ params:
 if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
 my crystal ball is out for repair, so do provide the needed context.
 
-## reformat sas drives to 512/4096 block size
+## reformat sas drives to 512/4096 sector size
 the 2 needed steps:
 * find disk {{< elink "cyclops" "example" >}}
 * format {{< elink "redist" "example" >}}  
