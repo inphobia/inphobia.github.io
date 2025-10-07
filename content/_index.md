@@ -7,7 +7,6 @@ params:
   eid: technotes
 ---
 # a collection of technical notes.
-
 > [!INFO]
 > the content that's online needs some organization, you can
 > use the next button on every page except this one and
@@ -39,7 +38,7 @@ the 2 needed steps:
 still need to fully write out these steps
 
 > [!NOTE]
-this is where guides & stuff start
+> this is where guides & stuff start
 
 ## no idea where to start?
 {{< elink "here" "here" >}} or {{< elink "orhere" "here" >}} are good options.
@@ -47,7 +46,7 @@ here explains how to go from no sas to some sas, while here is a collection of t
 
 ## how to navigate
 > [!INFO]
-many pages are still being fleshed out and are empty or incomplete, as indicated by "todo".
+> many pages are still being fleshed out and are empty or incomplete, as indicated by "todo".
 * flowcharts are step by step guides on how i tackled what some would call projects
   * they'll make heavy use of links to topic specific pages
     * would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
@@ -60,18 +59,15 @@ many pages are still being fleshed out and are empty or incomplete, as indicated
   * prolly need to add a sas jargon dictionary...
 
 ## this all started with me wanting to rip a few cds
-
 and somehow i ended up with 50 sas ssd's, over 20 optical drives, notes and
 half finished documentation all over the place, plus some interesting failures.
 
-the focus will lie on using sas hardware when running only windows 11. the concepts
+the focus will lay on using sas hardware when running only windows 11. the concepts
 and tools are os agnostic and will work on other operating systems with some common
 sense. there's a small chance that a page or 2 on [openbsd](https://openbsd.org) appears,
 don't count on it.
 
 ## global todo list
-
-
 stuff that should show up here / my todo list
 
 * easy to find, mostly correct
