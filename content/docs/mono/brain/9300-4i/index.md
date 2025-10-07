@@ -1,11 +1,10 @@
 ---
-title: 'hba lsi 9300-4i'
-description: 'hba lsi 9300-4i'
+title: hba lsi 9300-4i
+description: hba lsi 9300-4i
 params:
   eid: lsi-9300-4i
 ---
 # lsi 9300-4i
-
 lsi / broadcom branded internal sas hba with 1 sff-8643 connector
 
 * pro

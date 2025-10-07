@@ -1,5 +1,5 @@
 ---
-date: '2025-09-03T21:58:25+02:00'
+date: 2025-09-03T21:58:25+02:00
 title: about
 description: about
 type: docs

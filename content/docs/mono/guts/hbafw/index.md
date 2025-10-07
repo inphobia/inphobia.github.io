@@ -1,6 +1,6 @@
 ---
-title: 'hba firmware'
-description: 'hba firmware'
+title: hba firmware
+description: hba firmware
 params:
   eid: hbafw
 ---

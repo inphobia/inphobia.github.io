@@ -65,7 +65,7 @@ reuse enterprise drives in home pc.
     * {{< elink "perc730" "dell perc h730 (raid)" >}}
     > [!IMPORTANT]
     > current advise: broadcom 9500 series  
-    > on technical merit, at even that feels wrong
+    > on technical merit, even if it feels wrong
     * non-oem (so actual broadcom) highly suggested over oem versions
     * 2 connectors recommended (so 9500-16i, or 9500-8e/16e)
     * cheaper alternative: lsi 9300-8i or 9300-4i4e

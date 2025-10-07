@@ -1,6 +1,6 @@
 ---
-title: 'asrock x670e pg lightning'
-description: 'asrock x670e pg lightning'
+title: asrock x670e pg lightning
+description: asrock x670e pg lightning
 params:
   eid: x670e
 ---
