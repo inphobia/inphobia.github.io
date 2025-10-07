@@ -1,7 +1,7 @@
 ---
 date: '2025-09-03T21:45:43+02:00'
-title: a collection of technical notes
-description: a collection of technical notes
+title: a collection of technical notes.
+description: a collection of technical notes.
 bookToC: false
 params:
   eid: technotes

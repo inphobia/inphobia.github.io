@@ -1,6 +1,6 @@
 baseURL = 'https://inphobia.github.io/'
 languageCode = 'en-us'
-title = 'a collection of technical notes'
+title = 'a collection of technical notes.'
 theme = 'hugo-book'
 capitalizeListTitles = false
 disablePathToLower = false
