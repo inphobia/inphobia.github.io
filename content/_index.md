@@ -72,6 +72,7 @@ stuff that should show up here / my todo list
   * ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
   * totally safe way to to combine a paperclip and psu
   * t10 dif stuff (mostly for seagate drives)
+  * 4160 blocksize mention
 * hard to find, incorrect, ancient. the things that took effort and time.
   * optical drives borked power connectors
   * sector size for sas disks (512/520/4096) - and how to change them
@@ -87,6 +88,9 @@ stuff that should show up here / my todo list
   * hotplugging sata drives on sas controllers and the tiny risk on overvoltage
 * and some words about
   * sata support in netapp shelves (or any shelf for that matter)
+    * ds244c: 2 ioms and disk led will not light up, 1 iom disk led will light up
+    * neither option find the disk
+    * perhaps multipath issue, sata has no multipath and seems always active on shelf
   * ses communication
   * out of band connector cable
   * stp (sata tunneling protocol)
