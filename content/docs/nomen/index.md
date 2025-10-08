@@ -41,7 +41,7 @@ todo - lots to add
 - sas expander
   - sas edge expander (connects 128 devices)
   - sas fanout expander (connects 128 edge expanders) - 1 per sas domain
-- sas domain max 16384 sas ports / adresses
+- sas domain max 16384 sas ports / addresses
 
 - connector: physical connector to plug in cables
   - connector assembly
