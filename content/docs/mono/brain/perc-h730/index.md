@@ -11,7 +11,7 @@ dell perc h730 (i think) with 1gb cache and battery backup
 # todo perhaps h730p
 
 ## general specs
-* controller: lsi sas3108 (megaraid 9300 series - likely 9361-8i)
+* chipset: lsi sas3108 (megaraid 9300 series - likely 9361-8i)
 * host interface: pcie3
 * sas 12, 6 & 3gb/s
 * sata 6 & 3gb/s

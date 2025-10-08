@@ -11,7 +11,7 @@ nifty little thing. up till now have only been able to get the lenovo ones, like
 part number `2283400-r`
 
 ## general specs
-* controller: pm8044
+* chipset: pm8044
 * host interface: none
 * connectors:
   * 6 sff-8643 which can connect to drives

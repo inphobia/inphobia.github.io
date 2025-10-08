@@ -13,7 +13,7 @@ starting from the 9300 series broadcom no longer mentions support for 1.5gbps sa
 broadcom's 9600 series only supports 6gbps sata
 
 ## alternative sata support
-{{< elink "82885t" "todo sas expander" >}}
+you can add a {{< elink "82885t" "adaptec 82885t" >}} and restore that
 
 ## lto (tape) support
 broadcom states the 9500 series should support lto drives but they do not explicitly test this. the 9600 series however has no current nor plannned support for lto drives (likely due to not supporting "transport layer retries").

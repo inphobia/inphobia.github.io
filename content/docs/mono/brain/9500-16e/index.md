@@ -8,7 +8,7 @@ params:
 broadcom branded sas hba with 4 sff-8644 connectors
 
 ## general specs
-* controller: broadcom sas3816
+* chipset: broadcom sas3816
 * host interface: pcie4 x8 (also supports x4, x2 & x1)
 * connectors: 4 sff-8644
 * sas 12, 6 & 3gb/s

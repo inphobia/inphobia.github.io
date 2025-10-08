@@ -73,7 +73,7 @@ Connector Name = C3   x1
 `CLI Version = 007.3503.0000.0000 Aug 05, 2025`
 
 ### sg3 utils
-{{< elink "sg3build" "self built" >}}
+{{< elink "arise" "self built" >}}
 
 based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451989291df695148cd8d8d03b3d987e
 

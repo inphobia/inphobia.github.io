@@ -1,8 +1,9 @@
 //a[href] {text-decoration-line: underline;}
 //a[href]:visited {color: var(--color-visited-link);}
 //.book-menu a {text-decoration-line: underline;text-decoration-style: dashed;}
-
 //.container {max-width: unset;}
+
+.att {backdrop-filter: invert(40%);}
 
 .markdown.book-article a[href],
 h1,

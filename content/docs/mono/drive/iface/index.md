@@ -9,8 +9,8 @@ params:
 and how to identify them. adapters, expanders, backplanes and all those goodies have a wider array of connector types.
 
 > [!important]
-> beware the difference between `connector assembly` and `connector mechanical`
-> the connector mechanical refers to the physical layout, the assembly to the exposed connections
+> beware the difference between `connector assembly` and `connector mechanical`.
+> the connector mechanical refers to the physical layout, the assembly to the exposed connections.
 > this document goes into the `connector mechanical` aspect.
 
 # todo explain better
@@ -45,9 +45,9 @@ power and data plug are separate connectors with a split between the two.
   * electrically complaint to support 12gb/s
   * sometimes known as high speed sff-8482
 
-your basic sas disk connector. both power and data are in a single connector with a notch where the $split is between sata connectors. this will prevent you from using sata power and/or data on sas disks. the opposite side of the notch also has pins, these are for sas dual port use. the notch itself doesn't have pins.
+your basic sas disk connector. both power and data are in a single connector with a notch where the split is between sata connectors. this will prevent you from using sata power and/or data on sas disks. the opposite side of the notch also has pins, these are for sas dual port use. the notch itself doesn't have pins.
 
-top:
+top:\
 ![sastop](sastop.jpg)
 
 bottom:
@@ -60,6 +60,7 @@ bottom:
 * sff-8640: serial attachment 24gb/s 4x unshielded connector
 
 resembles eia-966/sff8482 but with a more pins on the opposite side of the notch. the notch itself doesn't have pins.
+
 ### enterprise pcie
 
 #### sff-8639 (u.2/u.3)

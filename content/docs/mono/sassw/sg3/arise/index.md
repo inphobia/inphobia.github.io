@@ -2,10 +2,8 @@
 title: building sg3_utils for windows
 description: building sg3_utils for windows
 params:
-  eid: sg3build
+  eid: arise
 ---
-
-
 # why
 should you need any of the code changes done after release 1.48
 
