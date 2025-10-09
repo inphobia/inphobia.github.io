@@ -7,6 +7,15 @@ params:
 # broadcom 9500-16e
 broadcom branded sas hba with 4 sff-8644 connectors
 
+## verdict
+they are not cheap nor common secondhand. other than that it's easily
+the best card out of the several i tested. lowest power usage i found,
+even compared to several generations back. supported for at least several years,
+pretty good documentation, even has official windows 11 drivers.
+
+the 9500 cards with internal ports share most of these traits. for the use
+cases presented here it made less sense.
+
 ## general specs
 - chipset: broadcom sas3816
 - host interface: pcie4 x8 (also supports x4, x2 & x1)

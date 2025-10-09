@@ -7,7 +7,7 @@ params:
 # todo - wip
 
 ## firmware choice
-you cannot flash firmware downloaded from broadcom to devices that are not broadcom or lsi labeled. while almost all controllers from vendors as cisco, hp, dell, lenovo, etc... are broadcom cards, they do have a unique subsys id, as such you must use the vendor's firmware.
+you cannot flash firmware downloaded from broadcom to devices that are not broadcom or lsi labeled. while almost all controllers from vendors like cisco, hp, dell, lenovo, etc... are broadcom cards, they do have a unique subsys id, as such you must use the vendor's firmware.
 
 ## z
 

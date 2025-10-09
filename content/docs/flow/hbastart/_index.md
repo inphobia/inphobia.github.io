@@ -104,7 +104,7 @@ reuse enterprise drives in home pc.
 
 1. ## todo initialize, update fw, reformat
 
-   {{% elink "redist" "reformat" %}}
+   {{< elink "redist" "reformat" >}}
 
 1. ## profit
 

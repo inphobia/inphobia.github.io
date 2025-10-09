@@ -27,7 +27,7 @@ but that's a story for another time and place.
 
 ## determining the current sector size
 
-### using sg_format.exe
+### by using sg_format.exe
 > [!NOTE]
 > in this syntax sg_format.exe is safe to use. it will not destroy
 > data
@@ -50,7 +50,7 @@ current blocksize:
 > [!NOTE]
 > Logical block size=520 bytes
 
-### using smartmontools
+### by using smartmontools
 
 for usage of smartmontools see {{< elink "smartmon#show-all-statistics-smartmon-understands" "here" >}}
 
@@ -86,7 +86,7 @@ same goes for 520byte: here to native size equivalent is 4160byte.
 
 you can [reformat to this](#back-to-520-or-4160) as well, which is mostly useless in the context here.
 
-### using storcli
+### by using storcli
 
 storcli {{< elink "storcli#hangs-and-aborts-to-quick" "hangs easily" >}}, this includes when 520byte disks are attached. i recommond the 2 previous options.
 
@@ -196,46 +196,6 @@ Format unit in progress, 77.56% done
 Format unit in progress, 84.62% done
 Format unit in progress, 91.69% done
 Format unit in progress, 98.75% done
-FORMAT UNIT Complete
-```
-
-## option2: format 4k
-```
->sg_format.exe  --format --size=4096 PD7
-NETAPP    X371_S164A960ATE  NA54   peripheral_type: disk [0x0]
-Unit serial number: S5JENE0R502223
-LU name: 5002538b01564060
-Mode Sense (block descriptor) data, prior to changes:
-Number of blocks=1875385008 [0x6fc81ab0]
-Block size=520 [0x208]
-
-A FORMAT UNIT command will commence in 15 seconds
-ALL data on PD7 will be DESTROYED
-Press control-C to abort
-
-A FORMAT UNIT command will commence in 10 seconds
-ALL data on PD7 will be DESTROYED
-Press control-C to abort
-
-A FORMAT UNIT command will commence in 5 seconds
-ALL data on PD7 will be DESTROYED
-Press control-C to abort
-
-Format unit has started
-Format unit in progress, 6.82% done
-Format unit in progress, 13.78% done
-Format unit in progress, 20.73% done
-Format unit in progress, 27.68% done
-Format unit in progress, 34.63% done
-Format unit in progress, 41.58% done
-Format unit in progress, 48.53% done
-Format unit in progress, 55.47% done
-Format unit in progress, 62.42% done
-Format unit in progress, 69.37% done
-Format unit in progress, 76.31% done
-Format unit in progress, 83.25% done
-Format unit in progress, 90.20% done
-Format unit in progress, 97.15% done
 FORMAT UNIT Complete
 ```
 

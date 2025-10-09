@@ -10,13 +10,13 @@ only that question. write endurance, fw failure, etc are out of scope.
 how to backup your data will not be covered here either.
 
 ## beware those who claim to have the answer
-how important is your data? is one aricle or forum post enough to convince you?
+how important is your data? is one article or forum post enough to convince you?
 
 ## personal
 do you trust this post? i don't tend to get disks to not use them, these are the ones that i have as sample size.
 
 anecdotal:
-- samsung 840 pro had been powered of for 8 years without any data loss
+- samsung 840 pro had been powered off for 8 years without any data loss
 - 3 pm1643 drives for 4 months without data loss
 - 20 intel ssd dc s3510, no dataloss after powered off just over a year
 

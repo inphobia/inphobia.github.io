@@ -17,7 +17,6 @@ easy choice: [and important choice](hbastart#some-controllers-i-have-used)
 decent chance it's due to {{< elink "oops#no-sata-15gbps-support-optical-drives" "one" >}} of {{< elink "oops#no-sata-3gbps-support" "these" >}}.  
 an older hba might help, an {{< elink "82885t" "adaptec sas expander" >}} is likely a more interesting choice.
 
-
 ## reformat sas drive to 512b/4k
 never a {{< elink "redist" "bad idea" >}} to rush ahead with zero context.
 
