@@ -14,7 +14,9 @@ params:
 - https://github.com/smartmontools/smartmontools/releases
 - https://www.smartmontools.org/
 
-## what
+## how
+smartmontools comes with an installer, i recommend to use it. smartctl.exe will
+can be found in the bin directory of the install path.
 
 ### todo noteworthy information
 
@@ -23,8 +25,6 @@ params:
   - relative target port id = 1
   - relative target port id = 2
 
-
-## how
 
 ### finding attached drives
 

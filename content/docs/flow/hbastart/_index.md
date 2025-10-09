@@ -81,23 +81,30 @@ reuse enterprise drives in home pc.
     - sff-8482
     - sata
     > [!IMPORTANT]
-    > not yet, this is a placeholder
-    {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you want to play along you'll need a hba{{% /details %}}
+    > not yet, this is a {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you want to play along you'll need a hba{{% /details %}}
 1. ## software needed
-   you will need a few tools to get everything set up. they're freely available, these 2 are the most important.
+   you will need a few tools to get everything set up that are freely available, the links go to each tool's overview.
+   download locations are linked, as well as some install notes.
+
+   these 2 are critical:
    ### {{< elink "storcli" "storcli" >}}
-   storcli is the software you'll need to interface with broadcom cards (hba and raid)
+   - storcli is the software you'll need to interface with broadcom cards (hba and raid), required for firmware management: controller, drives, expanders
    ### {{< elink "sg3utils" "sg3utils" >}}
-   sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features.
-1. ## install hba, drivers-firmware-airflow
+   - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features, required for sg_scan.exe and sg_format.exe
+   ### {{< elink "smartmon" "smartmontools" >}}
+   - smartmontools can monitor and alert when disks stat having errors
+
+1. ## todo install hba, drivers-firmware-airflow
     - {{< elink "x670e" "finding a pcie slot" >}}
     - airflow
     - {{< elink "blitz" "upgrading adapter firmware" >}}
     - drivers
 
-1. ## connect device
+1. ## todo connect device
 
-1. ## initialize, update fw, reformat
+1. ## todo initialize, update fw, reformat
+
+   {{% elink "redist" "reformat" %}}
 
 1. ## profit
 

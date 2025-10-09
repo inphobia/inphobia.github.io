@@ -7,12 +7,24 @@ params:
 ---
 # sg3 utils
 
-# todo words
+## where
+- https://sg.danny.cz/sg/sg3_utils.html
+  - windows download links at the bottom
+- {{< elink "arise" "alternative" >}}
+
+## how
+the zipfile can be extracted wherever you want, the executables are
+a few directories deep
+
+## all examples are for windows
 all examples are given for the windows version of sg3_utils. they can likely be used on other operating systems
 if you compensate for the fact that the drive and controller references differ.
 
 all invocations of sg3 binaries have the .exe extension in these documents to clearly show the windows version
 is being used.
+
+
+# todo words
 
 - PD- notation to indicate physical drives
 - drive letters are show if the disk has one assigned
@@ -27,11 +39,3 @@ CDROM2          <Sas  >  ASUS      DRW-24D5MT        1.00
 
 ## why
 contains most of the commands you'll need
-
-## where
-- https://sg.danny.cz/sg/sg3_utils.html
-  - windows download links at the bottom
-
-## what
-
-## how

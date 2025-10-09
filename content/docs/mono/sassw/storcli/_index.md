@@ -24,6 +24,9 @@ make sure your version somewhat matches your firmware. i'm using "storcli sas3.5
 
 [https://www.broadcom.com/]: https://www.broadcom.com/
 
+## how
+unzip the file, the binaries are a few levels deep in the windows directory.
+
 ## naming
 while broadcom refers to this program as "storcli", the actual binary can also be called storcli64 or storcli2, as you can see in several examples.
 
