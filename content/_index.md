@@ -24,25 +24,20 @@ my crystal ball is out for repair, so do provide the needed context.
 > [!NOTE]
 > some pages are still being fleshed out and are empty or incomplete, as indicated by "todo".
 - {{< elink "flow" "flowcharts" >}} are step by step guides on how i tackled what some would call projects
-- they'll make heavy use of links to topic specific pages
-- would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
+  - they'll make heavy use of links to topic specific pages
+  - would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
 - {{< elink "mr9361" "pages per topic" >}} are intended to cover very specific items only
-- actual pages are collapsed in menu to reduce clutter
-- can be used as reference when you know what you need
-- building block for flowcharts
-- category names chosen for fun, not clarity
+  - actual pages are collapsed in menu to reduce clutter
+  - can be used as reference when you know what you need
+  - building block for flowcharts
+  - category names chosen for fun, not clarity
 - {{< elink "nomen" "nomenclature" >}}
-- prolly need to add a sas jargon dictionary...
+  - prolly need to add a sas jargon dictionary...
 
 ## no idea where to start?
 if you're new to sas quickly check the {{< elink "nomen#basics" "basic sas terms" >}}, continue on {{< elink "here" "here" >}} where we start building.  
-if you're already familiar then {{< elink "oops" "overlooked limitations" >}}, these {{< elink "orhere" "random related items" >}} i found no place for, {{< elink "arise" "compiling sg3 utils on windows" >}}, the always popular {{< elink "redist" "reformatting sas disks" >}} or just {{< elink "flow" "start from the top" >}}.
 
-## shortcut: format sas drives to 512/4096 sector size
-the 2 needed steps:
-- find disk {{< elink "cyclops" "example" >}}
-- format {{< elink "redist" "example" >}}
-still need to fully write out these steps
+if you're already familiar then {{< elink "oops" "overlooked limitations" >}}, these {{< elink "orhere" "random related items" >}} i found no place for, {{< elink "arise" "compiling sg3 utils on windows" >}}, the always popular {{< elink "redist" "reformatting sas disks" >}} or just {{< elink "flow" "start from the top" >}}.
 
 ## todo: this all started with me wanting to rip a few cds
 and somehow i ended up with 50 sas ssd's, over 20 optical drives, notes and
