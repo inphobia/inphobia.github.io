@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="no"?>
+<svg version="1.1" width="400" height="50" xmlns="http://www.w3.org/2000/svg">
+<g id="sata" fill="black" stroke="black">
+<path d="M 30 12 h 211 v 33 h -10 v -22 h -201 Z" />
+<path d="M 366 12 h -96 v 33 h 10 v -22 h 86 Z" />
+<path d="M 5 5 h 20 v 5 h -11 v 20 h 11 v 5 h -20 Z" />
+<path d="M 395 5 h -20 v 5 h 11 v 20 h -11 v 5 h 20 Z" />
+</g>
+</svg>
