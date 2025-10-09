@@ -20,7 +20,7 @@ if something does not work as expected or you do not agree, you are free to [ope
 my crystal ball is out for repair, so do provide the needed context.
 
 ## how to navigate
-> [!INFO]
+> [!NOTE]
 > some pages are still being fleshed out and are empty or incomplete, as indicated by "todo".
 * {{< elink "flow" "flowcharts" >}} are step by step guides on how i tackled what some would call projects
   * they'll make heavy use of links to topic specific pages

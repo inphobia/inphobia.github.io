@@ -6,7 +6,7 @@ weight: 17
 params:
   eid: here
 ---
-> [!INFO]
+> [!NOTE]
 > atm this page has the most useful info, more is coming
 
 # goal
