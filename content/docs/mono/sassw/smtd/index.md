@@ -5,6 +5,10 @@ params:
   eid: smartmon
 ---
 # smartmontools
+> [!TIP]
+> smartmontools supports sas, nvme and sata devices systemwide
+
+this guide's main focus is the sas part.
 
 # todo still mostly collection of logs/notes
 

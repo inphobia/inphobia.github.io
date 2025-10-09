@@ -6,6 +6,8 @@ params:
   eid: sg3utils
 ---
 # sg3 utils
+> [!TIP]
+> sg3 utils supports sas, nvme and sata devices systemwide
 
 ## where
 - https://sg.danny.cz/sg/sg3_utils.html
