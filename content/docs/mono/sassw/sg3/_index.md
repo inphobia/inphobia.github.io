@@ -14,7 +14,7 @@ if you compensate for the fact that the drive and controller references differ.
 all invocations of sg3 binaries have the .exe extension in these documents to clearly show the windows version
 is being used.
 
-- PD* notation to indicate physical drives
+- PD- notation to indicate physical drives
 - drive letters are show if the disk has one assigned
 - it tends to lump all optical drive letters on the first drive found
 ```
@@ -29,8 +29,8 @@ CDROM2          <Sas  >  ASUS      DRW-24D5MT        1.00
 contains most of the commands you'll need
 
 ## where
-* https://sg.danny.cz/sg/sg3_utils.html
-  * windows download links at the bottom
+- https://sg.danny.cz/sg/sg3_utils.html
+  - windows download links at the bottom
 
 ## what
 

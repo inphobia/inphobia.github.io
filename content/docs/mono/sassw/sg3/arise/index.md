@@ -8,11 +8,11 @@ params:
 should you need any of the code changes done after release 1.48
 
 ## where
-* https://github.com/doug-gilbert/sg3_utils
+- https://github.com/doug-gilbert/sg3_utils
 
 ## needed
-* opensuse tumbleweed (can be wsl2 version)
-* mingw cross compilation stuff
+- opensuse tumbleweed (can be wsl2 version)
+- mingw cross compilation stuff
 
 ## packages
 ```
@@ -86,7 +86,7 @@ cd sg3_utils
 ./bootstrap
 ./configure --host=x86_64-w64-mingw32 --enable-win32-spt-direct  --enable-static --enable-shared=no
 make
-find . -iname '*exe'
+find . -iname '-exe'
 
 ```
 ## check

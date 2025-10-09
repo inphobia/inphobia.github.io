@@ -9,19 +9,19 @@ params:
 cisco ucsc mraid12g with 1gb cache
 
 ## general specs
-* connectors: 2 sff-8643
+- connectors: 2 sff-8643
 
 ## opinion
-* pro
-  * saved from eol server, so free
-  * nvme backup
-  * connectors can be bundled
-* con
-  * gets **stupid** hot
-  * raid card, not hba. didn't try to reflash to hba mode.
-  * did not come with any bracket
-  * is oriented the wrong way for normal pc install
-  * did i mention how hot it gets?
+- pro
+  - saved from eol server, so free
+  - nvme backup
+  - connectors can be bundled
+- con
+  - gets --stupid-- hot
+  - raid card, not hba. didn't try to reflash to hba mode.
+  - did not come with any bracket
+  - is oriented the wrong way for normal pc install
+  - did i mention how hot it gets?
 
 ## images
 ![front](mraid12gf.jpg)

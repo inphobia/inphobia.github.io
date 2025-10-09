@@ -16,20 +16,20 @@ how important is your data? is one aricle or forum post enough to convince you?
 do you trust this post? i don't tend to get disks to not use them, these are the ones that i have as sample size.
 
 anecdotal:
-* samsung 840 pro had been powered of for 8 years without any data loss
-* 3 pm1643 drives for 4 months without data loss
-* 20 intel ssd dc s3510, no dataloss after powered off just over a year
+- samsung 840 pro had been powered of for 8 years without any data loss
+- 3 pm1643 drives for 4 months without data loss
+- 20 intel ssd dc s3510, no dataloss after powered off just over a year
 
 the samsung was a surprise, did not expect it would be intact. the others were at or just over the time i would start worrying. that's taking into account the conditions they operated in, how they were stored & the nand technology used. do _not_ take this as set in stone.
 
 ## jedec
 jedec's jesd218c & jesd219 go into more detail on "retention use", which boils down too:
-* when active, run your drives hot
-* when powered off, store your drives cool
+- when active, run your drives hot
+- when powered off, store your drives cool
 
 the requirements set forth are:
-* client ssd: 1 year data retention when stored at room temperature
-* enterprise ssd: 3 months of data retention above room temperature.
+- client ssd: 1 year data retention when stored at room temperature
+- enterprise ssd: 3 months of data retention above room temperature.
 
 the bigger the delta between hot/active & cold/powered off: the longer it takes before the loss occurs.
 

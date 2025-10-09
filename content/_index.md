@@ -22,16 +22,16 @@ my crystal ball is out for repair, so do provide the needed context.
 ## how to navigate
 > [!NOTE]
 > some pages are still being fleshed out and are empty or incomplete, as indicated by "todo".
-* {{< elink "flow" "flowcharts" >}} are step by step guides on how i tackled what some would call projects
-  * they'll make heavy use of links to topic specific pages
-    * would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
-* {{< elink "mr9361" "pages per topic" >}} are intended to cover very specific items only
-  * actual pages are collapsed in menu to reduce clutter
-  * can be used as reference when you know what you need
-  * building block for flowcharts
-  * category names chosen for fun, not clarity
-* {{< elink "nomen" "nomenclature" >}}
-  * prolly need to add a sas jargon dictionary...
+- {{< elink "flow" "flowcharts" >}} are step by step guides on how i tackled what some would call projects
+- they'll make heavy use of links to topic specific pages
+- would be nice if hugo could render those inline to make a long & complete chart, [perhaps it can](https://gohugo.io/render-hooks/links/#pageinner-details)
+- {{< elink "mr9361" "pages per topic" >}} are intended to cover very specific items only
+- actual pages are collapsed in menu to reduce clutter
+- can be used as reference when you know what you need
+- building block for flowcharts
+- category names chosen for fun, not clarity
+- {{< elink "nomen" "nomenclature" >}}
+- prolly need to add a sas jargon dictionary...
 
 ## no idea where to start?
 if you're new to sas quickly check the {{< elink "nomen#basics" "basic sas terms" >}}, continue on {{< elink "here" "here" >}} where we start building.  
@@ -39,8 +39,8 @@ if you're already familiar then {{< elink "oops" "overlooked limitations" >}}, t
 
 ## shortcut: format sas drives to 512/4096 sector size
 the 2 needed steps:
-* find disk {{< elink "cyclops" "example" >}}
-* format {{< elink "redist" "example" >}}
+- find disk {{< elink "cyclops" "example" >}}
+- format {{< elink "redist" "example" >}}
 still need to fully write out these steps
 
 ## todo: this all started with me wanting to rip a few cds
@@ -56,41 +56,41 @@ don't count on it.
 ## global todo list
 stuff that should show up here / my todo list
 
-* easy to find, mostly correct
-  * basic sas hba: airflow, bandwidth, external connections
-  * using dbpoweramp: testing actually bitrotted discs, secure ripping pitfalls
-  * full tower cases as drive storage
-* easy to find, mostly outdated (so these are updates or rewrites)
-  * ~~which sas hba you need~~
-  * sas cabling needs, quality of cabling, sata devices choking on some sas cables
-  * 8644 with and without pcie cable
-  * which tool does what & how: sg3_utils, smartmond, storcli
-  * why sas instead of sata
-* hard to find, mostly correct
-  * crapness of sff-8482 molex power plugs
-  * drive power draw, 12v rails, sata 3.3v pin reassign
-  * ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
-  * totally safe way to to combine a paperclip and psu
-  * t10 dif stuff (mostly for seagate drives)
-  * 4160 blocksize mention
-* hard to find, incorrect, ancient. the things that took effort and time.
-  * optical drives borked power connectors
-  * sector size for sas disks (512/520/4096) - and how to change them
-  * monitoring sas drives
-  * flashing sas drives with more recent firmware
-  * how not to flash optical drives
-  * sas expander stuff:
-    ~~* daisy chaining~~
-    * firmware flashing
-    * mixed drive use
-    * sas expander and towercase as disk enclosure
-    * 520byte drives and how they make windows storage commands hang
-  * hotplugging sata drives on sas controllers and the tiny risk on overvoltage
-* and some words about
-  * sata support in netapp shelves (or any shelf for that matter)
-    * ds244c: 2 ioms and disk led will not light up, 1 iom disk led will light up
-    * neither option find the disk
-    * perhaps multipath issue, sata has no multipath and seems always active on shelf
-  * ses communication
-  * out of band connector cable
-  * stp (sata tunneling protocol)
+- easy to find, mostly correct
+- basic sas hba: airflow, bandwidth, external connections
+- using dbpoweramp: testing actually bitrotted discs, secure ripping pitfalls
+	- full tower cases as drive storage
+- easy to find, mostly outdated (so these are updates or rewrites)
+	- ~~which sas hba you need~~
+	- sas cabling needs, quality of cabling, sata devices choking on some sas cables
+	- 8644 with and without pcie cable
+	- which tool does what & how: sg3_utils, smartmond, storcli
+	- why sas instead of sata
+	- hard to find, mostly correct
+	- crapness of sff-8482 molex power plugs
+	- drive power draw, 12v rails, sata 3.3v pin reassign
+	- ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
+	- totally safe way to to combine a paperclip and psu
+- t10 dif stuff (mostly for seagate drives)
+	- 4160 blocksize mention
+	- hard to find, incorrect, ancient. the things that took effort and time.
+	- optical drives borked power connectors
+	- sector size for sas disks (512/520/4096) - and how to change them
+	- monitoring sas drives
+	- flashing sas drives with more recent firmware
+	- how not to flash optical drives
+	- sas expander stuff:
+	~~- daisy chaining~~
+	- firmware flashing
+	- mixed drive use
+	- sas expander and towercase as disk enclosure
+	- 520byte drives and how they make windows storage commands hang
+	- hotplugging sata drives on sas controllers and the tiny risk on overvoltage
+	- and some words about
+- sata support in netapp shelves (or any shelf for that matter)
+	- ds244c: 2 ioms and disk led will not light up, 1 iom disk led will light up
+	- neither option find the disk
+	- perhaps multipath issue, sata has no multipath and seems always active on shelf
+	- ses communication
+	- out of band connector cable
+- stp (sata tunneling protocol)

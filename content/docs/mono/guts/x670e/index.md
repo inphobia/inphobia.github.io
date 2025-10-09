@@ -11,11 +11,11 @@ asrock am5 motherboard using the amd x670e chipset for amd ryzen 7000, 8000 & 90
 pcie slot 3 is the optimal place for your hba if you plan on using pcie slot 1.
 
 ## reasons
-* pcie lanes directly from cpu
-* pcie 4.0
-* physical x16 slot, 4 data lanes
-* clearance under the slot for airflow
-  * [included heatsink](#photo-side-view) for slot m2_4 is low profile
+- pcie lanes directly from cpu
+- pcie 4.0
+- physical x16 slot, 4 data lanes
+- clearance under the slot for airflow
+  - [included heatsink](#photo-side-view) for slot m2_4 is low profile
 
 ## images
 ### diagram

@@ -11,24 +11,24 @@ dell perc h730 (i think) with 1gb cache and battery backup
 # todo perhaps h730p
 
 ## general specs
-* chipset: lsi sas3108 (megaraid 9300 series - likely 9361-8i)
-* host interface: pcie3
-* sas 12, 6 & 3gb/s
-* sata 6 & 3gb/s
+- chipset: lsi sas3108 (megaraid 9300 series - likely 9361-8i)
+- host interface: pcie3
+- sas 12, 6 & 3gb/s
+- sata 6 & 3gb/s
 
 ## opinion
 
-* pro
-  * saved from eol server, so free
-  * battery pack
-  * supports 4k sector size drives
-  * 2 sff-8643
-* con
-  * pcie3
-  * gets very hot quickly
-  * raid card, not hba. didn't try to reflash to hba mode
-    * could not get the "switch to hba mode" working
-  * actual battery, no non volatile memory
+- pro
+  - saved from eol server, so free
+  - battery pack
+  - supports 4k sector size drives
+  - 2 sff-8643
+- con
+  - pcie3
+  - gets very hot quickly
+  - raid card, not hba. didn't try to reflash to hba mode
+    - could not get the "switch to hba mode" working
+  - actual battery, no non volatile memory
 
 ## images
 ![front](h730f.jpg)

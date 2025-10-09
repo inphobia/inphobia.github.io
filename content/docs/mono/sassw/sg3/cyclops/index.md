@@ -6,10 +6,10 @@ params:
   eid: cyclops
 ---
 # using sg_scan.exe
+sg_scan.exe is simple but crucial to find sas devices, giving the physical device reference and the scsi
+device reference. the latter is often needed to interact with expanders.
 
-# todo words
-
-## todo optical drives
+## todo optical drive example
 
 ## simple scan
 the basic form. will show physical drive number and assigned drive letter.
@@ -41,22 +41,6 @@ SCSI2:0,12,0   claimed=1 pdt=0h          NETAPP    X670_S164315TATE  NA55
 SCSI2:0,16,0   claimed=0 pdt=dh          BROADCOM  VirtualSES  03
 SCSI3:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
 SCSI4:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
-```
-
-## find drive
-```
->sg_scan.exe -b
-PD0     [S]     <Sas  >  NETAPP    X670_S164315TATE  NA55  S40TNY0M105275
-PD1     [E]     <NVMe >  WD_BLACK SN850X 8000GB  638201WD  E823_8FA6_BF53_0001_001B_448B_4071_28F4.
-PD2     [C]     <NVMe >  WD_BLACK SN850X 8000GB  638201WD  E823_8FA6_BF53_0001_001B_448B_4071_2C80.
-PD3             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R603645
-PD4             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502225
-PD5             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502235
-PD6             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502224
-PD7             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502223
-PD8             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502221
-PD9             <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R502238
-PD10            <Sas  >  NETAPP    X371_S164A960ATE  NA54  S5JENE0R607104
 ```
 
 ## alternative: windows task manager

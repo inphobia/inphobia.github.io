@@ -12,11 +12,11 @@ workflows have a note of what the initial hardware was when i started, but parts
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- * windows 11 pro 24h2 26100.6584
- * amd ryzen 7 8700g
- * {{< elink "x670e" "motherboard" >}} uefi 3.30
- * 2 m.2 sn850x black 8tb drives
- * {{< elink "topre" "realforce 1 105key iso layout" >}}
+ - windows 11 pro 24h2 26100.6584
+ - amd ryzen 7 8700g
+ - {{< elink "x670e" "motherboard" >}} uefi 3.30
+ - 2 m.2 sn850x black 8tb drives
+ - {{< elink "topre" "realforce 1 105key iso layout" >}}
 
 ### cleaned it just for this picture
 ![](likenew.jpg)
@@ -82,10 +82,10 @@ based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451
 these devices get powered on when needed.
 
 ### netapp ds224c diskshelf
- * 2 shelves
- * 2 powersupplies each
- * 2 iom12a fw0401 each
- * around 50 x371 sas ssd drives
+ - 2 shelves
+ - 2 powersupplies each
+ - 2 iom12a fw0401 each
+ - around 50 x371 sas ssd drives
 
 ### optical tower
 todo
