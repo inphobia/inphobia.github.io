@@ -17,6 +17,7 @@ params:
 > even better, it was tested.
 
 if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
+
 my crystal ball is out for repair, so do provide the needed context.
 
 ## how to navigate
