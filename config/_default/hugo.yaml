@@ -19,13 +19,13 @@ markup:
 
 outputs:
   home:
-    - html
+  - html
   page:
-    - html
+  - html
   section:
-    - html
+  - html
   term:
-    - html
+  - html
 
 caches:
   images:
@@ -38,6 +38,8 @@ imaging:
     excludeFields: .*
 
 params:
+  images:
+  - favicon.svg
   BookSection: docs
   BookTheme: auto
   BookSearch: false
