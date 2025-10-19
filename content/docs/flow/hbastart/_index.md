@@ -24,7 +24,7 @@ reuse enterprise drives in home pc.
 - decent 800w psu
 
 ## hardware to add
-- netapp x371 disk
+- netapp x371 disks
 
 ![](humblebrag.jpg)
 
@@ -45,7 +45,7 @@ reuse enterprise drives in home pc.
     #### broadcom
     - the dominant player when it comes to hba and raid cards
     - their older products can are sold under the "lsi" or "avago" brand name
-    - most hba's and raid controllers from vendors like hp, dell, ibm, lenovo, etc... are actually broadcom devices.
+    - most hba's and raid controllers from vendors like hpe, dell, ibm, lenovo, etc... are actually broadcom devices.
     #### microchip
     - also known as microsemi, adaptec & pmc-sierra
     - not commonly seen as oem cards
@@ -54,7 +54,7 @@ reuse enterprise drives in home pc.
     - no experience with their hba's, their sas to fibre channel bridges are fun.
     ### controller mode
     - you want a <span class="att">hba</span> controller, also known as "it mode" for older controllers.
-    - you do not want a raid controller, even if it's running in jbod mode.
+    - you do not want a raid controller, even if it's running in jbod or passthrough mode.
     - you do not want a "sas expander"
     ### the fine print
     there might be some non obvious limitations for certain devices. they are mentioned in the manuals, which i recommend reading. at this stage in your journey they might not stand out, so here is the {{< elink "oops" "list of caveats" >}} i've run into till now.
@@ -81,18 +81,19 @@ reuse enterprise drives in home pc.
     - sff-8482
     - sata
     > [!IMPORTANT]
-    > not yet, this is a {{% details title="placeholder" open=false %}}that's most of the basics covered, feel free to stay but if you want to play along you'll need a hba{{% /details %}}
+    > <details><summary>not yet, this is a placeholder</summary>that's most of the basics covered, feel free to stay but if you want to play along you'll need a hba</details>
+
 1. ## software needed
-   you will need a few tools to get everything set up that are freely available, the links go to each tool's overview.
+   you will need a few tools to get everything set up. they are freely available
+   but some are closed source, the links go to each tool's overview.
    download locations are linked, as well as some install notes.
 
-   these 2 are critical:
    ### {{< elink "storcli" "storcli" >}}
    - storcli is the software you'll need to interface with broadcom cards (hba and raid), required for firmware management: controller, drives, expanders
    ### {{< elink "sg3utils" "sg3utils" >}}
    - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features, required for sg_scan.exe and sg_format.exe
    ### {{< elink "smartmon" "smartmontools" >}}
-   - smartmontools can monitor and alert when disks stat having errors
+   - smartmontools can monitor and alert when disks start having errors
 
 1. ## todo install hba, drivers-firmware-airflow
     - {{< elink "x670e" "finding a pcie slot" >}}

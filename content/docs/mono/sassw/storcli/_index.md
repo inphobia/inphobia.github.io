@@ -21,10 +21,10 @@ needed for most interaction like:
 
 
 ## where
-can be downloaded from [https://www.broadcom.com/][].
-make sure your version somewhat matches your firmware. i'm using "storcli sas3.5 p36" with a 9500-16e running uefi p36.
+can be downloaded from [https://www.broadcom.com/support/download-search][].
+make sure your version somewhat matches your firmware. i'm using "storcli_sas3.5_p36" with a 9500-16e running "p36 mixed fw bios uefi".
 
-[https://www.broadcom.com/]: https://www.broadcom.com/
+[https://www.broadcom.com/support/download-search]: https://www.broadcom.com/support/download-search
 
 ## how
 unzip the file, the binaries are a few levels deep in the windows directory.
@@ -36,13 +36,14 @@ while broadcom refers to this program as "storcli", the actual binary can also b
 
 ### hangs and aborts to quick
 
-whenever storci encounters a situation that differs from what it expects, even by a small amount, it tends
+whenever storcli encounters a situation that differs from what it expects, even by a small amount, it tends
 to stop printing output.
 this makes troubleshooting quite frustrating now and then
 
-example 1: sas expander has issues connecting
+#### example 1: sas expander has issues connecting
 
-{{% details title="expected output: working expander and drive still shown" open=false %}}
+{{% details title="expected output: working expander and drive still shown" %}}
+
 ```
 >storcli64 /c0 show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -264,13 +265,12 @@ ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
 56 46 54 35 57 46 41 51 32 32 31 31 30 38 5f 48
 5f 30 f0 f8 30 56 30 30 53 41 4d 53 55 4e 47 20
 ```
+
 {{% /details %}}
 
 
+{{% details title="actual output: does not show any driver or expanders anymore" %}}
 
-
-
-{{% details title="actual output: does not show any driver or expanders anymore" open=false %}}
 ```
 >storcli64.exe /c0 show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -393,11 +393,13 @@ Security Protocol properties :
 ============================
 Security Protocol = None
 ```
+
 {{% /details %}}
 
-example 2: show information from the always present virtual expander with other expander acting up
+#### example 2: show information from the always present virtual expander with other expander acting up
 
-{{% details title="expected output: expander details show" open=false %}}
+
+{{% details title="expected output: expander details show" %}}
 
 ```
 >storcli64.exe /c0/e0 show all
@@ -456,9 +458,11 @@ EID State Slots PD PS Fans TSs Alms SIM ProdID     VendorSpecific
 EID-Enclosure Device ID |PD-Physical drive count |PS-Power Supply count
 TSs-Temperature sensor count |Alms-Alarm count |SIM-SIM Count| ProdID=Product ID
 ```
+
 {{% /details %}}
 
-{{% details title="actual output: even targetted query fails" open=false %}}
+{{% details title="actual output: even targetted query fails" %}}
+
 ```
 >storcli64.exe /c0/e0 show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
