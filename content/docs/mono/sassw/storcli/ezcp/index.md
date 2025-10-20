@@ -33,6 +33,75 @@ Ctl Model        AdapterType   VendId DevId SubVendId SubDevId PCI Address
 ---------------------------------------------------------------------------
 ```
 
+## show basic disk info
+```
+>storcli64.exe /c0 show
+CLI Version = 007.3503.0000.0000 Aug 05, 2025
+Operating system = Windows 11
+Controller = 0
+Status = Success
+Description = None
+
+Product Name = HBA 9500-16e
+Serial Number = SPE4909773
+SAS Address =  500062b2205fea80
+PCI Address = 00:01:00:00
+System Time = 10/20/2025 01:42:54
+FW Package Build = 36.00.00.00
+FW Version = 36.00.00.00
+BIOS Version = 09.71.00.00_36.00.00.00
+NVDATA Version = 36.00.00.14
+PSOC FW Version = 0x006E
+PSOC Part Number = 14790
+Driver Name = ItSas35
+Driver Version = 2.61.82.00
+Bus Number = 1
+Device Number = 0
+Function Number = 0
+Domain ID = 0
+Vendor Id = 0x1000
+Device Id = 0xE6
+SubVendor Id = 0x1000
+SubDevice Id = 0x4070
+Board Name = HBA 9500-16e
+Board Assembly = 03-50075-00003
+Board Tracer Number = SPE4909773
+Security Protocol = None
+Package Stamp Mismatch = No
+Physical Drives = 16
+
+PD LIST :
+=======
+
+-----------------------------------------------------------------------------
+EID:Slt DID State DG       Size Intf Med     SED PI SeSz Model            Sp
+-----------------------------------------------------------------------------
+0:12      1 JBOD  -   13.972 TB SAS  SSD     -   -  512B X670_S164315TATE -
+2:1       4 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:2       5 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:3       6 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:4       7 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:5       8 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:6       9 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:7      10 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:8      11 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:9      12 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:10     13 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S163A960ATE -
+2:11     14 JBOD  -  894.253 GB SAS  SSD     -   -  4 KB X371_S164A960ATE -
+15:0     17 JBOD  -        0 KB SATA Unknown -   -  512B DVDR   PX-760A   -
+15:1     16 JBOD  -        0 KB SATA Unknown -   -  512B DVDRAM GH24NSD1  -
+15:2     18 JBOD  -        0 KB SATA Unknown -   -  512B DVD+-RW DH-16ABS -
+15:3     19 JBOD  -        0 KB SATA Unknown -   -  512B BD-RE  BH10LS30  -
+-----------------------------------------------------------------------------
+
+EID-Enclosure Device ID|Slt-Slot No|DID-Device ID|DG-DriveGroup
+UGood-Unconfigured Good|UBad-Unconfigured Bad|Intf-Interface
+Med-Media Type|SED-Self Encryptive Drive|PI-Protection Info
+SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
+
+Requested Boot Drive = Not Set
+```
+
 ## show adapter temperature
 ```
 >storcli64.exe /c0 show temperature
@@ -52,6 +121,7 @@ Ctrl_Prop                       Value
 ROC temperature(Degree Celsius) 50
 --------------------------------------
 ```
+
 ## show only help commands related to hba mode
 ```
 >storcli64.exe -help it
@@ -155,6 +225,7 @@ storcli /cx db set {[master=<val>] [event EventLogQualifier=<val> EventValue=<va
            [mpi loginfo=<val> iocstatus=<val>] [ scsi sensekey=<val> asc=<val> ascq=<val>]}
 
 ```
+
 ## show most info from all enclosures and disks on controller 0
 ```
 >storcli64.exe /c0/eall/sall show all
@@ -250,7 +321,8 @@ ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
 56 46 54 35 57 46 41 51 32 32 31 31 30 38 5f 48
 5f 30 f0 f8 30 56 30 30 53 41 4d 53 55 4e 47 20
 ```
-### show phy error information
+
+## show phy error information
 ```
 >storcli64.exe /c0/pall show phyerrorcounters
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -287,6 +359,7 @@ PhyNo InvldDwrdCount RungDispartyErrCnt LosOfDwrdSynCnt PhyResetPrbCnt
 PhyNo-Phy Number |InvalDwdCnt-Invalid Dword count | RungDispartyErrCnt-Running Disparity error count
 LosOfDwrdSynCnt-Loss of Dword synchronization count | PhyResetPrbCnt-Phy reset problem count
 ```
+
 ## all phy info
 ```
 >storcli64.exe /c0/pall show

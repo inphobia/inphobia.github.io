@@ -25,8 +25,8 @@ todo - lots to add
 - sas speeds
   - sas-1: 3gb/s
   - sas-2: 6gb/s
-  - sas-3: 12g/s
-  - sas-4: 22.5gb/s
+  - sas-3: 12gb/s
+  - sas-4: 24gb/s
 - tri mode card
 - sas address
 
@@ -37,6 +37,8 @@ todo - lots to add
 
 - narrow port: port that is connected using only 1 phy
 - wide port
+
+- spc vs spl
 
 - sas expander
   - sas edge expander (connects 128 devices)

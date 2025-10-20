@@ -19,7 +19,7 @@ and how to identify them. adapters, expanders, backplanes and all those goodies 
 keying refers to the physical layout of the connectors so it's not physically possible to plug in the wrong type of cable.
 
 ### sata
-![](key-sata.svg)
+![](k-sata.svg)
 
 ### sata express
 ![](key-sata-express.svg)

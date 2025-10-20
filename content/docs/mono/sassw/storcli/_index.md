@@ -474,7 +474,7 @@ Description = Failed to get enclosure information
 {{% /details %}}
 
 
-### todo: basic commandline switches
-
-## {{< elink "ezcp" "examples safe to copy paste" >}}
-## {{< elink "blitz" "upgrading adapter firmware" >}}
+### basic commandline switches
+- /c0 will select the first controller
+- /eall will select all expanders, including the default virtual one
+- /sall will select all disks

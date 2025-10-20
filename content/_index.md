@@ -59,8 +59,8 @@ stuff that should show up here / my todo list
 - easy to find, mostly outdated (so these are updates or rewrites)
   - ~~which sas hba you need~~
   - sas cabling needs, quality of cabling, sata devices choking on some sas cables
-  - 8644 with and without pcie cable
-  - which tool does what & how: sg3_utils, smartmond, storcli
+  - 8644 with and without pcie contacts
+  - ~~which tool does what & how: sg3_utils, smartmond, storcli~~
   - why sas instead of sata
 - hard to find, mostly correct
   - crapness of sff-8482 molex power plugs
@@ -73,11 +73,13 @@ stuff that should show up here / my todo list
   - optical drives borked power connectors
   - ~~sector size for sas disks (512/520/4096) - and how to change them~~
   - monitoring sas drives
-  - flashing sas drives with more recent firmware
+  - ~~flashing sas drives with more recent firmware~~
+    - now with alternative tools
   - how not to flash optical drives
 - sas expander stuff:
   - ~~-daisy chaining~~
-  - firmware flashing
+  - ~~firmware flashing~~
+    - now with alternative tools
   - mixed drive use
   - sas expander and towercase as disk enclosure
   - 520byte drives and how they make windows storage commands hang

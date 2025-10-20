@@ -45,11 +45,11 @@ reuse enterprise drives in home pc.
     #### broadcom
     - the dominant player when it comes to hba and raid cards
     - their older products can are sold under the "lsi" or "avago" brand name
-    - most hba's and raid controllers from vendors like hpe, dell, ibm, lenovo, etc... are actually broadcom devices.
+    - a lot off hba's and raid controllers from vendors like hpe, dell, ibm, lenovo, etc... are actually broadcom devices.
     #### microchip
     - also known as microsemi, adaptec & pmc-sierra
-    - not commonly seen as oem cards
-    - less market share compared to broadcom but they're trying to make a comeback
+    - less commonly seen as oem cards
+    - smaller market share compared to broadcom but they're trying to make a comeback
     #### atto
     - no experience with their hba's, their sas to fibre channel bridges are fun.
     ### controller mode
@@ -88,12 +88,14 @@ reuse enterprise drives in home pc.
    but some are closed source, the links go to each tool's overview.
    download locations are linked, as well as some install notes.
 
-   ### {{< elink "storcli" "storcli" >}}
-   - storcli is the software you'll need to interface with broadcom cards (hba and raid), required for firmware management: controller, drives, expanders
+   ### arccli
+   - todo adaptec
    ### {{< elink "sg3utils" "sg3utils" >}}
    - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features, required for sg_scan.exe and sg_format.exe
    ### {{< elink "smartmon" "smartmontools" >}}
    - smartmontools can monitor and alert when disks start having errors
+   ### {{< elink "storcli" "storcli" >}}
+   - storcli is the software you'll need to interface with broadcom cards (hba and raid), required for firmware management: controller, drives, expanders
 
 1. ## todo install hba, drivers-firmware-airflow
     - {{< elink "x670e" "finding a pcie slot" >}}
@@ -105,7 +107,11 @@ reuse enterprise drives in home pc.
 
 1. ## todo initialize, update fw, reformat
 
-   {{< elink "redist" "reformat" >}}
+   ### update disk firmware
+   - with storcli
+   - {{< elink "fresh" "with sg3 utils" >}}
+   ### reformat to usable sector size if needed
+   - {{< elink "redist" "reformat" >}}
 
 1. ## profit
 

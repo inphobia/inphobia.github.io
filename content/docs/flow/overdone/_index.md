@@ -326,3 +326,9 @@ SCSI2:1,67,0   claimed=1 pdt=5h          HL-DT-ST  BD-RE  BH10LS30   1.02
 SCSI3:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
 SCSI4:0,0,0    claimed=1 pdt=0h          NVMe      WD_BLACK SN850X   11WD
 ```
+
+## windows task manager view
+
+<video controls muted>
+<source src="taskmgr.mp4" type="video/mp4">
+</video>
