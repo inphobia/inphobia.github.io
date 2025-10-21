@@ -108,8 +108,9 @@ reuse enterprise drives in home pc.
 1. ## todo initialize, update fw, reformat
 
    ### update disk firmware
-   - with storcli
+   - {{< elink "dskfw" "with storcli" >}}
    - {{< elink "fresh" "with sg3 utils" >}}
+   - with powershell?
    ### reformat to usable sector size if needed
    - {{< elink "redist" "reformat" >}}
 

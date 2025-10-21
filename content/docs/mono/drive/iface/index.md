@@ -22,13 +22,13 @@ keying refers to the physical layout of the connectors so it's not physically po
 ![](k-sata.svg)
 
 ### sata express
-![](key-sata-express.svg)
+![](k-sata-e.svg)
 
 ### sas
-![](key-sas.svg)
+![](k-sas.svg)
 
 ### enterprise pcie
-![](key-spcie.svg)
+![](k-u2.svg)
 
 ## close ups
 
