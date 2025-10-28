@@ -102,7 +102,7 @@ SeSz-Sector Size|Sp-Spun|U-Up|D-Down|T-Transition
 Requested Boot Drive = Not Set
 ```
 
-## show adapter temperature
+## show controller temperature
 ```
 >storcli64.exe /c0 show temperature
 CLI Version = 007.3503.0000.0000 Aug 05, 2025

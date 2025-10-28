@@ -18,7 +18,7 @@ do you trust this post? i don't tend to get disks to not use them, these are the
 anecdotal:
 - samsung 840 pro had been powered off for 8 years without any data loss
 - 3 pm1643 drives for 4 months without data loss
-- 20 intel ssd dc s3510, no dataloss after powered off just over a year
+- 20 intel ssd dc s3510, no data loss after powered off just over a year
 
 the samsung 840 was a surprise, did not expect it would be intact. the others were at or just over the time i would start worrying. that's taking into account the conditions they operated in, how they were stored & the nand technology used. do _not_ take this as gospel.
 
@@ -42,7 +42,7 @@ a personal addendum: while drives are powered on the background patrol will refr
 with slc the concept is simple: reads above a certain voltage level are true (1), reads below are false(0)
 
 #### dlc
-with dlc you store 2 bits per cell, so you need (2^2=4) voltage levels to represent all possible values. possible voltage drops will have a more pronounced & negative impact. while powered on the disk's background partrol will handle this, powered off it will retain data less long.
+with dlc you store 2 bits per cell, so you need (2^2=4) voltage levels to represent all possible values. possible voltage drops will have a more pronounced & negative impact. while powered on the disk's background patrol will handle this, powered off it will retain data less long.
 
 #### tlc
 with tlc were are storing 3 bits per cell, so we're now at (2^3=8) voltage levels to represent all possible values, and like dlc the error margin will become even smaller, again leading to a reduction in data retention.

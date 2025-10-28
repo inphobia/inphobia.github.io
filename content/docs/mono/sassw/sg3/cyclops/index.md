@@ -21,9 +21,9 @@ PD1     [E]     WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_
 PD2     [C]     WD_BLACK SN850X 8000GB  638211WD  E823_8FA6_BF53_0001_001B_448B_4071_2C80.
 ```
 
-## scan with bus and adapter
+## scan with bus and controller
 this will also include the bus type (sas and nvme in this example),
-as well as include adapter and expander info
+as well as include controller and expander info
 
 > [!TIP] 
 > the `-s` option is a bit more important on windows, this is where you'll get the mapping for

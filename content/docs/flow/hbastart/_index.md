@@ -41,21 +41,21 @@ reuse enterprise drives in home pc.
     > [!IMPORTANT]
     > this will be the most important choice you'll make
     ### vendor
-    there are only 3 valid players left on the market: broadcom, microchip & atto.
+    there are only 3 valid players left in the market: broadcom, microchip & atto.
     #### broadcom
     - the dominant player when it comes to hba and raid cards
-    - their older products can are sold under the "lsi" or "avago" brand name
-    - a lot off hba's and raid controllers from vendors like hpe, dell, ibm, lenovo, etc... are actually broadcom devices.
+    - their older products are sold under the "lsi" or "avago" brand name
+    - a lot of hbas and raid controllers from vendors like hpe, dell, ibm, lenovo, etc... are actually broadcom devices.
     #### microchip
     - also known as microsemi, adaptec & pmc-sierra
     - less commonly seen as oem cards
     - smaller market share compared to broadcom but they're trying to make a comeback
     #### atto
-    - no experience with their hba's, their sas to fibre channel bridges are fun.
+    - no experience with their hbas, their sas to fibre channel bridges are fun.
     ### controller mode
     - you want a <span class="att">hba</span> controller, also known as "it mode" for older controllers.
     - you do not want a raid controller, even if it's running in jbod or passthrough mode.
-    - you do not want a "sas expander"
+    - a "sas expander" can't be used.
     ### the fine print
     there might be some non obvious limitations for certain devices. they are mentioned in the manuals, which i recommend reading. at this stage in your journey they might not stand out, so here is the {{< elink "oops" "list of caveats" >}} i've run into till now.
     ### some controllers i have used
@@ -69,7 +69,7 @@ reuse enterprise drives in home pc.
     - non-oem (so actual broadcom) highly suggested over oem versions
     - 2 connectors recommended (so 9500-16i, or 9500-8e/16e)
     - cheaper alternative: lsi 9300-8i or 9300-4i4e
-    ### selection criteria
+    ### selection criteria to consider
     - current needs and possible future needs
     - price
     - eol/eos timeframe
@@ -91,7 +91,7 @@ reuse enterprise drives in home pc.
    ### arccli
    - todo adaptec
    ### {{< elink "sg3utils" "sg3utils" >}}
-   - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas features, required for sg_scan.exe and sg_format.exe
+   - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas dearest, required for sg_scan.exe and sg_format.exe
    ### {{< elink "smartmon" "smartmontools" >}}
    - smartmontools can monitor and alert when disks start having errors
    ### {{< elink "storcli" "storcli" >}}
@@ -100,7 +100,7 @@ reuse enterprise drives in home pc.
 1. ## todo install hba, drivers-firmware-airflow
     - {{< elink "x670e" "finding a pcie slot" >}}
     - airflow
-    - {{< elink "blitz" "upgrading adapter firmware" >}}
+    - {{< elink "blitz" "upgrading controller firmware" >}}
     - drivers
 
 1. ## todo connect device

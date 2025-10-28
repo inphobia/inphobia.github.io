@@ -46,7 +46,7 @@ expanders do not need software or drivers to work, actual plug & play.
 - pro
   - can be powered via either pcie or the molex connector
     - can transform a case with psu into a drive chassis
-  - makes sata 1.5gbps work with newer hba's
+  - makes sata 1.5gbps work with newer hbas
   - comes with vented full and half size bracket
   - supports wide ports on external and internal connectors
   - can even be daisy chained
@@ -71,7 +71,7 @@ expanders do not need software or drivers to work, actual plug & play.
 ## example topologies
 ### fanout / daisy chain
 ![fanout](82885t_fanout.png)
-### stacked diskshelves with build-in expanders
+### stacked disk shelves with build-in expanders
 ![internal ses](82885t_int_ses.png)
 ### make everything jbod
 ![jbod](82885t_jbod.png)

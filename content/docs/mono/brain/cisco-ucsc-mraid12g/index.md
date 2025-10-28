@@ -9,7 +9,7 @@ params:
 cisco ucsc mraid12g with 1gb cache
 
 ## verdict
-the pcb is custom built for cisco c-series. in a regular pc thisw ill make
+the pcb is custom built for cisco c-series. in a regular pc this will make
 it stick out the back of your pc where the bracket should normally be. this
 is asking for trouble. did try it, when i turned my box of after 5 minutes to
 reposition the card actually burned my fingers.

@@ -11,7 +11,7 @@ lsi / broadcom branded internal sas hba with 1 sff-8643 connector
 it's lsi branded, sas-3 and cheap second hand, versus, 1 connector is
 limiting, power usage is high for just 1 connector, docs aren't great.
 
-it being end of support is ofcourse the biggest issue. end of support means
+it being end of support is of course the biggest issue. end of support means
 no more firmware and driver updates no matter what. broadcom does not have
 windows 11 drivers for the card.
 

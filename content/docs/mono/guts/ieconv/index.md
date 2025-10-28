@@ -11,11 +11,12 @@ passive converter by startech
 sff86448plt2
 
 ## general specs
-- passive
+- passive (no power nor cooling needed)
 - 2 sff-8644 connectors
 - 2 sff-8643 connectors
-- no vented bracket
-- bracket could also be a thighter fit
+- full size & half size bracket included
+- no vented brackets
+- bracket could be a tighter fit
 
 ## reason
 an inexpensive option to interchange internal and external ports 

@@ -17,5 +17,5 @@ i haven't used those yet, likely won't.
 
 ## oem tools
 it's common for vendors to provide alternative software and/or firmware, this allows their
-users to upgrade to newer hardware without having to learn a different tool. percli by dell will
-for example. or like lenovo with their integrated 82885 & hba opgrade packages.
+users to upgrade to newer hardware without having to learn a different tool. perccli by dell will
+for example. or like lenovo with their integrated 82885 & hba upgrade packages.

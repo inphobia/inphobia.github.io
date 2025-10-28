@@ -35,9 +35,16 @@ my crystal ball is out for repair, so do provide the needed context.
   - prolly need to add a sas jargon dictionary...
 
 ## no idea where to start?
-if you're new to sas quickly check the {{< elink "nomen#basics" "basic sas terms" >}}, continue on {{< elink "here" "here" >}} where we start building.  
+if you're new to sas:
+- quickly check the {{< elink "nomen#basics" "basic sas terms" >}}
+- continue on {{< elink "here" "here" >}} where we start building.
 
-if you're already familiar then {{< elink "oops" "overlooked limitations" >}}, these {{< elink "orhere" "random related items" >}} i found no place for, {{< elink "arise" "compiling sg3 utils on windows" >}}, the always popular {{< elink "redist" "reformatting sas disks" >}} or just {{< elink "flow" "start from the top" >}}.
+if you're already familiar:
+- {{< elink "oops" "overlooked limitations" >}}
+- these {{< elink "orhere" "random related items" >}} i found no place for
+- {{< elink "arise" "compiling sg3 utils on windows" >}}
+- the always popular {{< elink "redist" "reformatting sas disks" >}}
+- or just {{< elink "flow" "start from the top" >}}.
 
 ## todo: this all started with me wanting to rip a few cds
 and somehow i ended up with 50 sas ssd's, over 20 optical drives, notes and
@@ -54,7 +61,7 @@ stuff that should show up here / my todo list
 
 - easy to find, mostly correct
   - basic sas hba: airflow, bandwidth, external connections
-  - using dbpoweramp: testing actually bitrotted discs, secure ripping pitfalls
+  - using dbpoweramp: testing actually bit rotted discs, secure ripping pitfalls
   - full tower cases as drive storage
 - easy to find, mostly outdated (so these are updates or rewrites)
   - ~~which sas hba you need~~
@@ -77,18 +84,18 @@ stuff that should show up here / my todo list
     - now with alternative tools
   - how not to flash optical drives
 - sas expander stuff:
-  - ~~-daisy chaining~~
+  - ~~daisy chaining~~
   - ~~firmware flashing~~
     - now with alternative tools
   - mixed drive use
-  - sas expander and towercase as disk enclosure
+  - sas expander and tower case as disk enclosure
   - 520byte drives and how they make windows storage commands hang
-  - hotplugging sata drives on sas controllers and the tiny risk on overvoltage
+  - hot plugging sata drives on sas controllers and the tiny risk on over voltage
 - and some words about
   - sata support in netapp shelves (or any shelf for that matter)
-  - ds244c: 2 ioms and disk led will not light up, 1 iom disk led will light up
-  - neither option finds the disk
-  - perhaps multipath issue, sata has no multipath and seems always active on shelf
+    - ds224c: 2 ioms and disk led will not light up, 1 iom disk led will light up
+    - neither option finds the disk
+    - perhaps multipath issue, sata has no multipath and seems always active on shelf
   - ses communication
   - out of band connector cable
   - stp (sata tunneling protocol)

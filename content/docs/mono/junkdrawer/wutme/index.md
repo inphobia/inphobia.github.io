@@ -49,21 +49,22 @@ Driver Version = 2.61.82.00
 ------------------------------------------------------------------------
 EID:Slt DID State DG      Size Intf Med SED PI SeSz Model            Sp
 ------------------------------------------------------------------------
-0:12      1 JBOD  -  13.972 TB SAS  SSD -   -  512B X670_S164315TATE -
+0:12      1 JBOD  -  13.970 TB SAS  SSD -   -  4 KB X670_S164315TATE -
 ------------------------------------------------------------------------
 
 Manufacturer Id = NETAPP
 Model Number = X670_S164315TATE
-Firmware Revision = NA55
-Raw size = 13.972 TB [0x6fc7cd2af Sectors]
-Coerced size = 13.972 TB [0x6fc7cd2af Sectors]
-Non Coerced size = 13.972 TB [0x6fc7cd2af Sectors]
+NAND Vendor = NA
+Firmware Revision = NA56
+Raw size = 13.970 TB [0xdf87ffff Sectors]
+Coerced size = 13.970 TB [0xdf87ffff Sectors]
+Non Coerced size = 13.970 TB [0xdf87ffff Sectors]
 Device Speed = 12.0Gb/s
 Link Speed = 12.0Gb/s
 Negotiated Physical Link Rate = 12.0Gb/s
-Sector Size = 512B
+Sector Size = 4 KB
 Config ID = NA
-Number of Blocks = 30005842607
+Number of Blocks = 3750232063
 Connector Name = C3   x1
 ```
 
@@ -83,7 +84,7 @@ these devices get powered on when needed.
 
 ### netapp ds224c diskshelf
  - 3 shelves
- - 2 powersupplies each
+ - 2 power supplies each
  - 2 iom12a fw0401 each
  - around 50 x371 sas ssd drives
 

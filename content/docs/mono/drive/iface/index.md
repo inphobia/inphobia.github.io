@@ -6,7 +6,7 @@ params:
   eid: iface
 ---
 # common drive interface types
-and how to identify them. adapters, expanders, backplanes and all those goodies have a wider array of connector types.
+and how to identify them. controllers, expanders, backplanes and all those goodies have a wider array of connector types.
 
 > [!important]
 > beware the difference between `connector assembly` and `connector mechanical`.
@@ -42,7 +42,7 @@ power and data plug are separate connectors with a split between the two.
 #### eia-966 (sff-8482 and friends) - (aka: sas connector)
 - sff-8482: serial attachment 2x unshielded connector
 - sff-8680: serial attachment 12gb/s 2x unshielded connector 
-  - electrically complaint to support 12gb/s
+  - electrically compliant to support 12gb/s
   - sometimes known as high speed sff-8482
 
 your basic sas disk connector. both power and data are in a single connector with a notch where the split is between sata connectors. this will prevent you from using sata power and/or data on sas disks. the opposite side of the notch also has pins, these are for sas dual port use. the notch itself doesn't have pins.
@@ -59,7 +59,7 @@ bottom:
   - todo: backplane only?
 - sff-8640: serial attachment 24gb/s 4x unshielded connector
 
-resembles eia-966/sff8482 but with a more pins on the opposite side of the notch. the notch itself doesn't have pins.
+resembles eia-966/sff-8482 but with more pins on the opposite side of the notch. the notch itself doesn't have pins.
 
 ### enterprise pcie
 

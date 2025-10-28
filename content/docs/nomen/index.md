@@ -12,7 +12,7 @@ params:
 {{< elink "glue" "todo: sas topology" >}} todo: sas topology
 
 - connector: physical connector to plug in cables
-- controller: generic term for both hba's and raid adapters
+- controller: generic term for both hbas and raid adapters
 - hba: host bus adapter, sas controller to allow direct access to disks
 - sas:
 - {{< elink "iface#sas-1" "sff-8482:" >}} most common connector to connect to sas disks

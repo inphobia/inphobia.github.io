@@ -10,7 +10,7 @@ just want the goodies and go? here you go.
 not going the copy the content here as well. would not say no if someone wrote a hugo
 template or short code that gets them rendered inline here.
 
-## adapter recommendation
+## controller recommendation
 easy choice: [and important choice](hbastart#some-controllers-i-have-used)
 
 ## sata doesn't work
