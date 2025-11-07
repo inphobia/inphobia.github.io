@@ -18,8 +18,6 @@ needed for most interaction like:
 - checking controller
 - checking disks
 
-
-
 ## where
 can be downloaded from [https://www.broadcom.com/support/download-search][].
 make sure your version somewhat matches your firmware. i'm using "storcli_sas3.5_p36" with a 9500-16e running "p36 mixed fw bios uefi".
@@ -31,6 +29,11 @@ unzip the file, the binaries are a few levels deep in the windows directory.
 
 ## naming
 while broadcom refers to this program as "storcli", the actual binary can also be called storcli64 or storcli2, as you can see in several examples.
+
+## basic commandline switches
+- /c0 will select the first controller
+- /eall will select all expanders, including the default virtual one
+- /sall will select all disks, to be used with /s
 
 ## bugs
 
@@ -472,9 +475,3 @@ Status = Failure
 Description = Failed to get enclosure information
 ```
 {{% /details %}}
-
-
-### basic commandline switches
-- /c0 will select the first controller
-- /eall will select all expanders, including the default virtual one
-- /sall will select all disks

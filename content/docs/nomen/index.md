@@ -15,7 +15,7 @@ params:
 - controller: generic term for both hbas and raid adapters
 - hba: host bus adapter, sas controller to allow direct access to disks
 - sas:
-- {{< elink "iface#sas-1" "sff-8482:" >}} most common connector to connect to sas disks
+- {{< elink "iface#sas-1" "sff-8482:" >}} most common connector to direct connect sas disks
 - port: collection of phy's
 - phy: part of sas assembly that creates the physical link
 
@@ -26,7 +26,8 @@ todo - lots to add
   - sas-1: 3gb/s
   - sas-2: 6gb/s
   - sas-3: 12gb/s
-  - sas-4: 24gb/s
+  - sas-4: 22.5gb/s
+    - marketed as 24gb/s
 - tri mode card
 - sas address
 
@@ -34,6 +35,7 @@ todo - lots to add
 - hba
 - jbod
 - raid
+- nearline sas
 
 - narrow port: port that is connected using only 1 phy
 - wide port
@@ -41,8 +43,12 @@ todo - lots to add
 - spc vs spl
 
 - sas expander
-  - sas edge expander (connects 128 devices)
-  - sas fanout expander (connects 128 edge expanders) - 1 per sas domain
+  - sas-1 defined 2 types of expanders
+    - sas edge expander (connects 128 devices)
+    - sas fanout expander (connects 128 edge expanders)
+  - sas-2 and later replaced this with a simple rule
+    - if the expander connects only to the hba & other expanders it may connect as many expanders as it's connectors allow
+    - if there are 1 more end devices attached it may connect **at most** to 2 other expanders
 - sas domain max 16384 sas ports / addresses
 
 - connector: physical connector to plug in cables

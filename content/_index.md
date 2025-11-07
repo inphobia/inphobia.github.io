@@ -7,6 +7,7 @@ params:
   eid: technotes
 ---
 # a collection of technical notes.
+most of them regarding spielerei with serial attached scsi
 > [!WARNING]
 > work in progress  
 > typos and engrish ahead
@@ -66,6 +67,7 @@ stuff that should show up here / my todo list
 - easy to find, mostly outdated (so these are updates or rewrites)
   - ~~which sas hba you need~~
   - sas cabling needs, quality of cabling, sata devices choking on some sas cables
+    - and what's the deal with the special supermicro cables broadcom sells
   - 8644 with and without pcie contacts
   - ~~which tool does what & how: sg3_utils, smartmond, storcli~~
   - why sas instead of sata
@@ -93,9 +95,11 @@ stuff that should show up here / my todo list
   - hot plugging sata drives on sas controllers and the tiny risk on over voltage
 - and some words about
   - sata support in netapp shelves (or any shelf for that matter)
-    - ds224c: 2 ioms and disk led will not light up, 1 iom disk led will light up
-    - neither option finds the disk
-    - perhaps multipath issue, sata has no multipath and seems always active on shelf
+    - it seems iom12 based devices only accept sas disks
+    - iom6 based devices can run sata devices but still need an interposer
+    - ~~ds224c: 2 ioms and disk led will not light up, 1 iom disk led will light up~~
+    - ~~neither option finds the disk~~
+    - ~~perhaps multipath issue, sata has no multipath and seems always active on shelf~~
   - ses communication
   - out of band connector cable
   - stp (sata tunneling protocol)

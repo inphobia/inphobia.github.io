@@ -6,7 +6,7 @@ params:
   eid: mraid12g
 ---
 # cisco ucsc mraid12g
-cisco ucsc mraid12g with 1gb cache
+cisco ucsc mraid12g with 1gb cache and 2 sff-8643 connectors.
 
 ## verdict
 the pcb is custom built for cisco c-series. in a regular pc this will make

@@ -9,7 +9,11 @@ params:
 ## firmware choice
 you cannot flash firmware downloaded from broadcom to devices that are not broadcom or lsi labeled. while almost all controllers from vendors like cisco, hp, dell, lenovo, etc... are broadcom cards, they do have a unique subsys id, as such you must use the vendor's firmware.
 
-## z
+
+## expander firmware
+expander is not relevant, their functioning tis trasparent and makes no difference if it's a hba or raid controller that's speaking with them.
+
+odo better words; link {{< elink "revive" "expander fw update" >}} & {{< elink "82885t" "adaptec 82885t expander overview" >}}
 
 ## no firmware downloads here {anchor=false}
 i will not upload controller or disk firmware to this site. if the vendor no longer has firmware for a device on their site i would suggest checking archive.org. if all else fails you can try to contact me - figuring out how is the litmus test.

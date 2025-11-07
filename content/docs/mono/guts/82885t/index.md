@@ -5,10 +5,12 @@ description: adaptec sas expander 82885t
 params:
   eid: 82885t
 ---
-# adaptec 82885t sas expander
+# adaptec aec-82885t sas expander
 nifty little thing. up till now have only been able to get the lenovo ones, like the one pictured below. intel has made a version of it as well called `res3fv288`.
 
-part number `2283400-r`
+- adaptec/microchip part number: `2283400-r`
+- lenovo part number: `00LF095`
+- intel version: `res3fv288`
 
 ## general specs
 - chipset: pm8044
@@ -33,7 +35,11 @@ part number `2283400-r`
 
 it's not clear to me what the difference might be between these versions. i hope to get some insight should i be able to track down an adaptec or intel card.
 
+updating the firmware on these adapters is explained in more detail {{< elink "revive" "here" >}}.
+
 ## connectors
+> [!IMPORTANT]
+> 6 connectors can have direct attached devices (for a total of 24) devices
 - the external connectors (sff-8644) cannot be used to attach drives, only expanders or controllers
 - the leftmost internal connector (sff-8643) cannot be used to attach drives, only expanders & controllers
 - the internal connector next to the leftmost can be used to attach drives but not on very old firmwares

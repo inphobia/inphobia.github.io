@@ -6,7 +6,8 @@ params:
   eid: perc730
 ---
 # dell perc h730
-dell perc h730 (i think) with 1gb cache and battery backup
+dell perc h730 (i think) with 1gb cache, battery backup and 2 sff-8643
+connectors
 
 # todo perhaps h730p
 

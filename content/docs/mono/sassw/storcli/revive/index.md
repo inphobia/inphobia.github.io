@@ -5,11 +5,23 @@ description: revive
 params:
   eid: revive
 ---
-# TODO
+# sas expander firmware upgrade
+todo: a few words here on sas commandset perhaps?
 
-going from lenovo fw 0.62 to 0.63
+## adaptec 82885t expander
+{{< elink "82885t" "this overview" >}} has most of the relevant info,
+we'll be focusing just on the firmware upgrade process here.
+
+i only have lenovo versions, so that's what we'll be using here.
+
+### getting firmware
+lenovo offers the firmware upgrades as a free download. you'll need to download
+the .exe version and open it as an archive with 7-zip. you can then just extract
+the firmware. in our version it's called `aec82885t.bin`
 
 ## find expander
+we will first need to find the eid of the adapter so we can address it.
+
 ```
 >storcli64.exe /c0/eall show
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -33,9 +45,19 @@ EID State Slots PD PS Fans TSs Alms SIM ProdID        VendorSpecific
 EID-Enclosure Device ID |PD-Physical drive count |PS-Power Supply count
 TSs-Temperature sensor count |Alms-Alarm count |SIM-SIM Count| ProdID=Product ID
 ```
-eid 14 in this case
+
+the eid is `14` in this case:
+```
+EID State Slots PD PS Fans TSs Alms SIM ProdID        VendorSpecific
+---------------------------------------------------------------------
+ 14 OK       24  4  2    4   2    1   1 AEC-82885T    PMCSIERA D
+```
 
 ## check current config
+so we can check which firmware is currently loaded. at time of writing i only
+have lenovo adapters, adaptec proper or intel versions could differ but
+i don't expect them to.
+
 ```
 >storcli64.exe /c0/e14 show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
@@ -93,6 +115,8 @@ EID State Slots PD PS Fans TSs Alms SIM ProdID     VendorSpecific
 EID-Enclosure Device ID |PD-Physical drive count |PS-Power Supply count
 TSs-Temperature sensor count |Alms-Alarm count |SIM-SIM Count| ProdID=Product ID
 ```
+so we're on firmware `B062` now.  
+`Product Revision Level = B062`
 
 ## update firmware
 ```
@@ -105,10 +129,19 @@ Description = Expander FW update is in progress. It takes several minutes to com
 ```
 
 ## wait 5 minutes
+there is very little to no feedback if the upgrade process has completed, so
+we'll give it 5 minutes.
 
 ## powercycle expander
+the expander cab be upgraded live, giving it a powercycle is gives me some peace
+of mind.
 
 ## check
+> [!IMPORTANT]
+> i removed a non related expander before i ran this command. the adaptec
+> expander is identified as eid `2` in this final example.
+
+the firmware version now shows `B063`
 ```
 >storcli64.exe /c0/e2 show all
 CLI Version = 007.3503.0000.0000 Aug 05, 2025
