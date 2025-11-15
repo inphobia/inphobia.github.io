@@ -43,12 +43,12 @@ todo - lots to add
 - spc vs spl
 
 - sas expander
+  - sas-2 and later have a simple rule
+    - if the expander connects only to the hba & other expanders it may connect as many expanders as it's connectors allow
+    - if there are 1 or more end devices attached it may connect **at most** to 2 other expanders, or 1 expander and 1 hba
   - sas-1 defined 2 types of expanders
     - sas edge expander (connects 128 devices)
     - sas fanout expander (connects 128 edge expanders)
-  - sas-2 and later replaced this with a simple rule
-    - if the expander connects only to the hba & other expanders it may connect as many expanders as it's connectors allow
-    - if there are 1 more end devices attached it may connect **at most** to 2 other expanders
 - sas domain max 16384 sas ports / addresses
 
 - connector: physical connector to plug in cables
