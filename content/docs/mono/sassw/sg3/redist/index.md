@@ -66,16 +66,16 @@ you're looking for the lines starting with:
 if the logical and physical sizes match only physical will be shown.
 
 - 512byte logical, 4k physical:
-  - ```
+    ```
     Logical block size:   512 bytes
     Physical block size:  4096 bytes
     ```
 - 4k logical, 4k physical:
-  - ```
+    ```
     Physical block size:  4096 bytes
     ```
 - 520byte logical, 4160byte physical:
-  - ```
+    ```
     Logical block size:   520 bytes
     Physical block size:  4160 bytes
     ```
@@ -88,9 +88,9 @@ you can [reformat to this](#back-to-520-or-4160) as well, which is mostly useles
 
 ### by using storcli
 
-storcli {{< elink "storcli#hangs-and-aborts-to-quick" "hangs easily" >}}, this includes when 520byte disks are attached. i recommond the 2 previous options.
+storcli {{< elink "storcli#hangs-and-aborts-to-quick" "hangs easily" >}}, this includes when 520byte disks are attached. i recommend the 2 previous options.
 
-calling {{< elink "storcli" "storcli" >}} what he argument `/c0 show` will have the
+calling {{< elink "storcli" "storcli" >}} with the argument `/c0 show` will have the
 sector size under the heading SeSz.
 
 ```
