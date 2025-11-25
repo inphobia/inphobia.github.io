@@ -200,7 +200,7 @@ FORMAT UNIT Complete
 ```
 
 ### back to 520 or 4160
-dumb idea unless you have a very specific reason. windows will not be able to write data t
+dumb idea unless you have a very specific reason. windows will not be able to write data to
 these disks.
 
 you can use `--size=520` and `--size=4160` should you need have a need to. i haven't tested

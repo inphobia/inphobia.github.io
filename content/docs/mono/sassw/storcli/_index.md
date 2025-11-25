@@ -33,7 +33,7 @@ while broadcom refers to this program as "storcli", the actual binary can also b
 ## basic commandline switches
 - /c0 will select the first controller
 - /eall will select all expanders, including the default virtual one
-- /sall will select all disks, to be used with /s
+- /sall will select all disks, to be used with /e
 
 ## bugs
 

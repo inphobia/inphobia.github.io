@@ -5,7 +5,7 @@ description: powered off ssd and data retention
 params:
   eid: nojuice
 ---
-# how long will a powered of ssd retain it's data?
+# how long will a powered off ssd retain it's data?
 only that question. write endurance, fw failure, etc are out of scope.
 how to backup your data will not be covered here either.
 

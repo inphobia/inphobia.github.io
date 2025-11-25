@@ -55,7 +55,7 @@ expanders do not need software or drivers to work, actual plug & play.
   - makes sata 1.5gbps work with newer hbas
   - comes with vented full and half size bracket
   - supports wide ports on external and internal connectors
-  - can even be daisy chained
+  - can be daisy chained
   - todo picture of card mounted on atx standoffs
 - con
   - todo lenovo health alert (cosmetic most likely)
