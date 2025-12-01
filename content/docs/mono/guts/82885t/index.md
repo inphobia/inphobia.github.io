@@ -6,14 +6,52 @@ params:
   eid: 82885t
 ---
 # adaptec aec-82885t sas expander
-nifty little thing. up till now have only been able to get the lenovo ones, like the one pictured below. intel has made a version of it as well called `res3fv288`.
+nifty little thing. the lenovo and white label versions make up most of the versions
+you can buy. the adaptec proper and intel ones are likely knock-offs.
 
-- adaptec/microchip part number: `2283400-r`
-- lenovo part number: `00LF095`
-- intel version: `res3fv288`
+## part numbers
+
+- adaptec/microchip order code: `2283400-r`
+- adaptec/microchip name: `aec-82885t card`
+- lenovo part number: `fru00lf095`
+- intel's name: `intel raid res3fv288`
+- white label: 
+
+> [!WARNING]
+> unless you can get actual pictures it will be very hard to tell which version you'll get
+> some vendors reuse the same images, some have no idea what they sell, some are lying.
+
+the trend seems to be that the intel and adaptec version go for a big premium (up to 10-15times more).
+all cards i have lenovo stickers. the specdocs did not point out any glaring differences. my untrained eye
+did not find anything obvious in the firmwares either.
+
+as such i have no reason to assume that any of the versions are better or worse, nor do i see a reason to
+overpay for a specific vendor.
+
+todo: did adaptec license their core, are there fakes, am i paranoid?
+
+## buyer's guide
+
+how to identify a card, the details that are missed and not get tricked
+into overpaying: {{< elink "seemslegit" "an ongoing journey" >}}.
+
+todo: a word on pci subsys id's and verify all my cards.
+
+
+
+## firmware
+- adaptec: 0.59
+- intel: 0.57 (also includes cpld 2.1.0)
+- lenovo: 0.63
+
+it's not clear to me what the difference might be between these versions. i hope to get some insight should i be able to track down an adaptec or intel card.
+
+updating the firmware on these adapters is explained in more detail {{< elink "revive" "here" >}}.
+
+todo: is firmware portable over subsys id's?
 
 ## general specs
-- chipset: pm8044
+- chipset: pm8044 sxp 36sx12g
 - host interface: none
 - connectors:
   - 6 sff-8643 which can connect to drives
@@ -27,15 +65,6 @@ nifty little thing. up till now have only been able to get the lenovo ones, like
 ## power and cooling
 - 16watt (1.34a @ 12v)
 - 200lfm airflow
-
-## firmware
-- adaptec: 0.59
-- intel: 0.57 (also includes cpld 2.1.0)
-- lenovo: 0.63
-
-it's not clear to me what the difference might be between these versions. i hope to get some insight should i be able to track down an adaptec or intel card.
-
-updating the firmware on these adapters is explained in more detail {{< elink "revive" "here" >}}.
 
 ## connectors
 > [!IMPORTANT]
@@ -64,7 +93,9 @@ expanders do not need software or drivers to work, actual plug & play.
     - i do doubt this since lenovo bundles this with a broadcom hba while seemingly supporting cli config
     - updating firmware & some other basic things do work through storcli
   - documentation could be better
-  - eol & eos, even though lenovo released a firmware update in 2025
+  - ~~eol & eos, even though lenovo released a firmware update in 2025~~ todo: is it?
+    - eol/eos intel, in production microchip
+  - most sellers seem to either don't know which version they're selling or trying to rip you off
 
 ## images
 ### 7 sff-8643

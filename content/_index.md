@@ -93,6 +93,8 @@ stuff that should show up here / my todo list
   - sas expander and tower case as disk enclosure
   - 520byte drives and how they make windows storage commands hang
   - hot plugging sata drives on sas controllers and the tiny risk on over voltage
+  - almost all 82885t are lenovo?
+  - get i2c working
 - and some words about
   - sata support in netapp shelves (or any shelf for that matter)
     - it seems iom12 based devices only accept sas disks
