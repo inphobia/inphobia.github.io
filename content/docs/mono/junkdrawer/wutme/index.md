@@ -12,10 +12,12 @@ workflows have a note of what the initial hardware was when i started, but parts
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.6725
- - amd ryzen 7 8700g
+ - windows 11 pro 25h2 26200.7462
+ - amd ryzen 7 9800x3d
+ - scythe mugen 6 black edition
  - {{< elink "x670e" "motherboard" >}}, uefi 3.30
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
+ - asrock challenger radeon rx9060xt 16gb
  - {{< elink "topre" "realforce 1 105key iso layout" >}}
 
 ### cleaned it just for this picture
