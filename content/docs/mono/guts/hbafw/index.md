@@ -7,11 +7,11 @@ params:
 # todo - wip
 
 ## firmware choice
-you cannot flash firmware downloaded from broadcom to devices that are not broadcom or lsi labeled. while almost all controllers from vendors like cisco, hp, dell, lenovo, etc... are broadcom cards, they do have a unique subsys id, as such you must use the vendor's firmware.
+you cannot flash firmware downloaded from broadcom to devices that are not broadcom or lsi labeled. while many controllers from vendors like cisco, hpe, dell, lenovo, etc... are broadcom cards, they do have a unique subsys id, as such you must use the vendor's firmware.
 
 
 ## expander firmware
-expander is not relevant, their functioning tis trasparent and makes no difference if it's a hba or raid controller that's speaking with them.
+expander is not relevant, it's functioning is transparent and makes no difference if it's a hba or raid controller that's speaking with them.
 
 todo better words; link {{< elink "revive" "expander fw update" >}} & {{< elink "82885t" "adaptec 82885t expander overview" >}}
 
