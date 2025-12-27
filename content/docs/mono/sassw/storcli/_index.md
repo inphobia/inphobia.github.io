@@ -20,7 +20,7 @@ needed for most interaction like:
 
 ## where
 can be downloaded from [https://www.broadcom.com/support/download-search][].
-make sure your version somewhat matches your firmware. i'm using "storcli_sas3.5_p36" with a 9500-16e running "p36 mixed fw bios uefi".
+make sure your version somewhat matches your firmware. i'm using "storcli_sas3.5_p37" with a 9500-16e running "p36 mixed fw bios uefi".
 
 [https://www.broadcom.com/support/download-search]: https://www.broadcom.com/support/download-search
 

@@ -40,7 +40,7 @@ NVDATA Version = 36.00.00.14
 PSOC FW Version = 0x006E
 PSOC Part Number = 14790
 Driver Name = ItSas35
-Driver Version = 2.61.82.00
+Driver Version = 2.61.85.00
 ```
 ### external to internal sas converter
 {{< elink "ieconv" "startech sff86448plt2" >}}

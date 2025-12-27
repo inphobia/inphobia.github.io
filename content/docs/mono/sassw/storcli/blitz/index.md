@@ -6,3 +6,14 @@ params:
   eid: blitz
 ---
 # todo
+
+
+when a newer firmware gets released
+
+{{% steps %}}
+1. ## upgrade storcli to newest version
+
+2. ## upgrade hba driver to newest version and reboot
+
+
+{{% /steps %}}
