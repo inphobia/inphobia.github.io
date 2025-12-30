@@ -41,11 +41,11 @@ a personal addendum: while drives are powered on the background patrol will refr
 #### slc
 with slc the concept is simple: reads above a certain voltage level are true (1), reads below are false(0)
 
-#### dlc
-with dlc you store 2 bits per cell, so you need (2^2=4) voltage levels to represent all possible values. possible voltage drops will have a more pronounced & negative impact. while powered on the disk's background patrol will handle this, powered off it will retain data less long.
+#### mlc
+with mlc you store 2 bits per cell, so you need (2^2=4) voltage levels to represent all possible values. possible voltage drops will have a more pronounced & negative impact. while powered on the disk's background patrol will handle this, powered off it will retain data less long.
 
 #### tlc
-with tlc were are storing 3 bits per cell, so we're now at (2^3=8) voltage levels to represent all possible values, and like dlc the error margin will become even smaller, again leading to a reduction in data retention.
+with tlc were are storing 3 bits per cell, so we're now at (2^3=8) voltage levels to represent all possible values, and like mlc the error margin will become even smaller, again leading to a reduction in data retention.
 
 
 ## publications by vendors
@@ -53,17 +53,17 @@ here are some extracts from data sheets, where enterprise class disks often ment
 
 ### hitachi ultrastar sn100
 2017 datasheet:
-![dataloss3](dataloss3.png)
+![dataloss3](dataloss3.webp)
 
 ### unnamed storage appliance vendor
 2024 advisory:
-![dataloss4](dataloss4.png)
+![dataloss4](dataloss4.webp)
 
 ### unnamed ssd vendor
 2018 datasheet:
-![dataloss1](dataloss1.png)
+![dataloss1](dataloss1.webp)
 2023 sheet:
-![dataloss2](dataloss2.png)
+![dataloss2](dataloss2.webp)
 
 ## conclusion
 while i have yet to experience data loss due to a disk being powered off over too long a period, it's important to take note of what the vendors publish. having to mention a data retention period is not exactly good optics, neither is publishing an advisory on data loss when you're a storage company.

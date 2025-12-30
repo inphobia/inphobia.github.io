@@ -91,7 +91,7 @@ reuse enterprise drives in home pc.
    ### arccli
    - todo adaptec
    ### {{< elink "sg3utils" "sg3utils" >}}
-   - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas dearest, required for sg_scan.exe and sg_format.exe
+   - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas feature set, required for sg_scan.exe and sg_format.exe
    ### {{< elink "smartmon" "smartmontools" >}}
    - smartmontools can monitor and alert when disks start having errors
    ### {{< elink "storcli" "storcli" >}}
