@@ -113,6 +113,8 @@ reuse enterprise drives in home pc.
    - with powershell?
    ### reformat to usable sector size if needed
    - {{< elink "redist" "reformat" >}}
+   ### t10-pi/dif/dix
+   - todo disabling extra protection features
 
 1. ## profit
 
