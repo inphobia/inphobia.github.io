@@ -15,7 +15,7 @@ the history of this page (and the rest of the site) is kept on github, last chan
  - windows 11 pro 25h2 26200.7462
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
- - {{< elink "x670e" "motherboard" >}}, uefi 3.30
+ - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 3.30
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
  - asrock challenger radeon rx9060xt 16gb
  - antec p20ce case (includes 3 120mm fans)
@@ -44,6 +44,11 @@ PSOC Part Number = 14790
 Driver Name = ItSas35
 Driver Version = 2.61.85.00
 ```
+
+### {{< elink "storcli" "storcli" >}}
+`CLI Version = 007.3603.0000.0000 Oct 30, 2025`
+
+
 ### external to internal sas converter
 {{< elink "ieconv" "startech sff86448plt2" >}}
 #### connect with a 0.5m cable
@@ -71,11 +76,6 @@ Config ID = NA
 Number of Blocks = 3750232063
 Connector Name = C3   x1
 ```
-
-### storcli
-{{< elink "storcli" "storcli" >}}
-
-`CLI Version = 007.3503.0000.0000 Aug 05, 2025`
 
 ### sg3 utils
 {{< elink "arise" "self built" >}}
