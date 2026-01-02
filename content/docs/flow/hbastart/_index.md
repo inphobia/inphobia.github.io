@@ -88,8 +88,8 @@ reuse enterprise drives in home pc.
    but some are closed source, the links go to each tool's overview.
    download locations are linked, as well as some install notes.
 
-   ### arccli
-   - todo adaptec
+   ### arcconf
+   - adaptec's interface tool for their controllers.
    ### {{< elink "sg3utils" "sg3utils" >}}
    - sg3 utils is an expansive collection of tools that covers almost every aspect of the sas feature set, required for sg_scan.exe and sg_format.exe
    ### {{< elink "smartmon" "smartmontools" >}}

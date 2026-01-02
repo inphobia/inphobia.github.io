@@ -18,6 +18,8 @@ the history of this page (and the rest of the site) is kept on github, last chan
  - {{< elink "x670e" "motherboard" >}}, uefi 3.30
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
  - asrock challenger radeon rx9060xt 16gb
+ - antec p20ce case (includes 3 120mm fans)
+ - 3 arctic p14 pwm pst case fans
  - {{< elink "topre" "realforce 1 105key iso layout" >}}
 
 ### cleaned it just for this picture
