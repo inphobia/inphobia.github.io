@@ -19,14 +19,14 @@ pcie slot 3 is the optimal place for your hba if you plan on using pcie slot 1.
 
 ## images
 ### diagram
-![](x670e-layout.png)
+![](x670e-layout.webp)
 ### bandwidth routing
-![](x670e-logical.png)
+![](x670e-logical.webp)
 ### cpu support vs pcie support
-![](x670e-pcie-cpu.png)
+![](x670e-pcie-cpu.webp)
 ### expansion slot outtake
-![](x670e-pcie.png)
+![](x670e-pcie.webp)
 ### photo: top view
-![](x670e-photo.png)
+![](x670e-photo.webp)
 ### photo: side view
-![sideview](x670e-photo3.png)
+![sideview](x670e-photo3.webp)

@@ -1,0 +1,11 @@
+
+# convert heic to interlaced jpg - doesn't care about icc or hdr & such
+# remove all metadata
+# resize (keeping aspectratio) so 1600x1200 is max
+magick -verbose input.heic -resize '1600x1200>' -strip -interlace plane output.jpg
+
+# png to lossless webp
+convert-im7.q16hdri dataloss2.png -quality 100 -strip dataloss2.webp
+
+# add exif on exifless file
+exiftool -Copyright="2 clause bsd" -CopyrightNotice="2 clause bsd" -Artist="inphobia" -overwrite_original dataloss2.webp

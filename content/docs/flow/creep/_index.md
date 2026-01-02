@@ -15,3 +15,7 @@ sometimes you outgrow your case, sometimes you want to shut down a 10 dvd drive 
 - external sas cable (sff-8644 <-> sff-8644)
 - power supply
 - {{< elink "paperclip" "paperclip" >}}
+
+## pics
+![](creep1.jpg)
+![](creep2.jpg)

@@ -52,4 +52,4 @@ a strange but simple alternative which is also seems to be a lot more responsive
 > always matched the disk number in task manager. i cannot guarantee this
 > will always be the case, so use caution.
 
-![](allseeing.png)
+![](allseeing.webp)
