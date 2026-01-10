@@ -37,7 +37,7 @@ built around the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, 
 ## failing forward
 
 if anything, i aim to invest my time poking hardware bits hoping they'll do what i want, typing & correcting
-strings so [perl](https://www.perl.com/) doesn't get mad, having heated discussion when someone is wrong...
+strings so [perl](https://www.perl.com/) doesn't get mad, having heated discussions when someone is wrong...
 on the internet!
 
 will show xkcd comic when i care to find out how to embed it: https://xkcd.com/386
