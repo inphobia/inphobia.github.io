@@ -4,6 +4,8 @@
 # resize (keeping aspectratio) so 1600x1200 is max
 magick -verbose input.heic -resize '1600x1200>' -strip -interlace plane output.jpg
 
+magick mogrify -format jpg -resize '1600x1200>' -strip -interlace plane *.HEIC
+
 # png to lossless webp
 convert-im7.q16hdri dataloss2.png -quality 100 -strip dataloss2.webp
 

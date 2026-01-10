@@ -40,10 +40,25 @@ it does the job just fine there are a few things to take into account:
 
 ![zap](zap.jpg)
 
-### todo option 2: atx plug with permanent connection
+### option 2: atx plug with permanent connection
+does what the paperclip does but safer and more durable.
 
+![atxfixed4](atxfixed4.jpg)
 
-### todo option 3: atx plug wired with switch
+looks like this, pins tend to be very thin, perhaps to thin.
 
+![atxfixed1](atxfixed1.jpg)
+![atxfixed2](atxfixed2.jpg)
+![atxfixed3](atxfixed3.jpg)
+
+### option 3: atx plug wired with switch
+
+seems like an elegant solution but it makes terrible contact so
+half of the time the psu won't power on.
+
+![atxclick1](atxclick1.jpg)
+![atxclick2](atxclick2.jpg)
+![atxclick3](atxclick3.jpg)
+![atxclick4](atxclick4.jpg)
 
 ### todo option 4: power converter board
