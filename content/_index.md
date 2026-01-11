@@ -76,7 +76,7 @@ stuff that should show up here / my todo list
   - drive power draw, 12v rails, sata 3.3v pin reassign
   - ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
   - ~~totally safe way to to combine a paperclip and psu~~
-    - document alternatives
+    - ~~document alternatives~~
   - t10 dif stuff (mostly for seagate drives)
   - ~~4160 blocksize mention~~
 - hard to find, incorrect, ancient. the things that took effort and time.

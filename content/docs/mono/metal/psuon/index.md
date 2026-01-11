@@ -61,4 +61,21 @@ half of the time the psu won't power on.
 ![atxclick3](atxclick3.jpg)
 ![atxclick4](atxclick4.jpg)
 
-### todo option 4: power converter board
+### option 4: power converter board
+
+most expensive option relative to the rest, also does a lot more.
+
+the idea is to use to power dedicated to the atx connector, in particular
+5v & 12v, and reroute those to molex connectors to power more drives.
+
+i did not take into account however that these are male connectors where i
+mostly need female ones. worries for later...
+
+as soon as it detects any power, be it from plugging in the psu or some residual
+charge, the blue led will light up.
+
+![atxpb1](atxpb1.jpg)
+
+it also comes with a handy on/off switch.
+
+![atxpb2](atxpb2.jpg)
