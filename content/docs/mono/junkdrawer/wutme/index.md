@@ -82,6 +82,10 @@ Connector Name = C3   x1
 
 based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451989291df695148cd8d8d03b3d987e
 
+### smartmontools
+version
+`smartctl pre-8.0-355 2026-01-05 [x86_64-w64-mingw32-w11-25H2] (GHA Build)`
+
 ## sas specific - adhoc
 
 these devices get powered on when needed.

@@ -11,7 +11,7 @@ params:
 ## basics
 {{< elink "glue" "todo: sas topology" >}} todo: sas topology
 
-- connector: physical connector to plug in cables
+- connector: physical connection where to plug in cables
 - controller: generic term for both hbas and raid adapters
 - hba: host bus adapter, sas controller to allow direct access to disks
 - sas:
@@ -28,7 +28,7 @@ todo - lots to add
   - sas-3: 12gb/s
   - sas-4: 22.5gb/s
     - marketed as 24gb/s
-- tri mode card
+- tri mode card: card that does sata, sas and nvme
 - sas address
 
 - controller
@@ -39,8 +39,15 @@ todo - lots to add
 
 - narrow port: port that is connected using only 1 phy
 - wide port
+- dual port:
 
-- spc vs spl
+- standards (incits)
+  - sam: scsi architecture model
+  - sbc: scsi block commands
+  - spc: scsi primary commands
+  - spl: sas protocol layer
+  - zbc: zoned block commands
+
 
 - sas expander
   - sas-2 and later have a simple rule
@@ -58,3 +65,8 @@ todo - lots to add
 - phy
 - lane: only used in pcie context; not sas context
 
+- vpd: vital product data
+- stp: serial ata tunneled protocol
+- smp: sas serial management protocol
+- ses: scsi enclosure services
+- ssp: serial scsi protocol

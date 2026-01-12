@@ -9,16 +9,28 @@ params:
 # a collection of technical notes.
 most of them regarding spielerei with serial attached scsi
 > [!WARNING]
-> work in progress  
 > typos and engrish ahead
 
+## beginnings
+this all started with me wanting to rip a few cds. somehow i ended up with 50+
+sas ssd's, over 30 optical drives, notes and half finished documentation all over
+the place, as well as some interesting failures.
+
+i'll hopefully start ripping those cds soonish.
+
+## expectations
+
+the focus will lay on using sas hardware when running only windows 11. the concepts
+and tools are mostly os agnostic and will have a high likelyhood of working on other
+operating systems with some common sense. i have no plans to cover pcie over sas,
+i do have 1 pcie u.2, so might get there eventually. there's a small chance that a
+page or 2 on [openbsd](https://openbsd.org) appears, don't count on it.
+
 ## disclaimer
-> [!IMPORTANT]
-> to the best of my knowledge all information compiled here is correct at the time of writing.  
-> even better, it was tested.
+to the best of my knowledge all information compiled here is correct at the time of writing.  
+even better, it was tested.
 
 if something does not work as expected or you do not agree, you are free to [open an issue](https://github.com/inphobia/inphobia.github.io/issues).
-
 my crystal ball is out for repair, so do provide the needed context.
 
 ## how to navigate
@@ -33,7 +45,7 @@ my crystal ball is out for repair, so do provide the needed context.
   - building block for flowcharts
   - category names chosen for fun, not clarity
 - {{< elink "nomen" "nomenclature" >}}
-  - prolly need to add a sas jargon dictionary...
+  - a basic sas jargon dictionary
 
 ## no idea where to start?
 if you're new to sas:
@@ -46,16 +58,6 @@ if you're already familiar:
 - {{< elink "arise" "compiling sg3 utils on windows" >}}
 - the always popular {{< elink "redist" "reformatting sas disks" >}}
 - or just {{< elink "flow" "start from the top" >}}.
-
-## todo: this all started with me wanting to rip a few cds
-and somehow i ended up with 50 sas ssd's, over 20 optical drives, notes and
-half finished documentation all over the place, plus some interesting failures.
-
-the focus will lay on using sas hardware when running only windows 11. the concepts
-and tools are os agnostic and will work on other operating systems with some common
-sense. i have no plans to cover pcie over sas, i do have 1 pcie u.2, so might get there
-eventually. there's a small chance that a page or 2 on [openbsd](https://openbsd.org) appears,
-don't count on it.
 
 ## global todo list
 stuff that should show up here / my todo list
@@ -106,3 +108,4 @@ stuff that should show up here / my todo list
   - ses communication
   - out of band connector cable
   - stp (sata tunneling protocol)
+- giving access to full resolution images somehow would be nice
