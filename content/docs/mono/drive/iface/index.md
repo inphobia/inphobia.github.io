@@ -5,6 +5,7 @@ description: drive connectors
 params:
   eid: iface
 ---
+
 # common drive interface types
 and how to identify them. controllers, expanders, backplanes and all those goodies have a wider array of connector types.
 
@@ -45,7 +46,10 @@ power and data plug are separate connectors with a split between the two.
   - electrically compliant to support 12gb/s
   - sometimes known as high speed sff-8482
 
-your basic sas disk connector. both power and data are in a single connector with a notch where the split is between sata connectors. this will prevent you from using sata power and/or data on sas disks. the opposite side of the notch also has pins, these are for sas dual port use. the notch itself doesn't have pins.
+your basic sas disk connector. both power and data are in a single connector with
+a notch where the split is between sata connectors. this will prevent you from
+using sata power and/or data on sas disks. the opposite side of the notch also
+has pins, these are for sas dual port use. the notch itself doesn't have pins.
 
 top:\
 ![sastop](sastop.jpg)

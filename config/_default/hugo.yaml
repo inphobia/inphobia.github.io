@@ -8,6 +8,7 @@ disableKinds: taxonomy
 pluralizeListTitles: false
 enableGitInfo: true
 titlecasestyle: none
+timezone: 'Europe/Brussels'
 
 markup:
   goldmark:
@@ -35,7 +36,7 @@ imaging:
   exif:
     disableDate: true
     disableLatLong: true
-    excludeFields: .*
+    excludeFields: '.*'
 
 params:
   images:

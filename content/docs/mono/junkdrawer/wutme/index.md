@@ -7,7 +7,10 @@ params:
 ---
 # what am i actually running
 
-workflows have a note of what the initial hardware was when i started, but parts get swapped in and out ofcourse. so here i'll give an overview of the full setup i'm running. don't expect this to be updated daily. it will be updated when noteworthy changes happen. if none happen i'll update it every 3 months or so.
+workflows have a note of what the initial hardware was when i started, but parts
+get swapped in and out ofcourse. so here i'll give an overview of the full setup
+i'm running. don't expect this to be updated daily. it will be updated when
+noteworthy changes happen. if none happen i'll update it every 3 months or so.
 
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 

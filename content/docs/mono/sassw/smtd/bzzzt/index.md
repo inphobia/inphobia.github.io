@@ -30,7 +30,7 @@ Device Model:     WDC WD30EZRX-00DC0B0
 Serial Number:    WD-WMC1T1863442
 LU WWN Device Id: 5 0014ee 058d69272
 Firmware Version: 80.00A80
-User Capacity:    3 000 592 982 016 bytes [3.00 TB]
+User Capacity:    3.000.592.982.016 bytes [3.00 TB]
 Sector Sizes:     512 bytes logical, 4096 bytes physical
 Device is:        In smartctl database
 ATA Version is:   ACS-2 (minor revision not indicated)
@@ -261,7 +261,7 @@ Vendor:               SEAGATE
 Product:              ST1000NM0045
 Revision:             DS03
 Compliance:           SPC-4
-User Capacity:        1 000 204 886 016 bytes [1.00 TB]
+User Capacity:        1.000.204.886.016 bytes [1.00 TB]
 Logical block size:   512 bytes
 Formatted with type 2 protection
 8 bytes of protection information per logical block
@@ -415,7 +415,7 @@ Vendor:               SEAGATE
 Product:              ST1000NM0045
 Revision:             DS03
 Compliance:           SPC-4
-User Capacity:        1 000 204 886 016 bytes [1.00 TB]
+User Capacity:        1.000.204.886.016 bytes [1.00 TB]
 Logical block size:   512 bytes
 LU is fully provisioned
 Rotation Rate:        7200 rpm

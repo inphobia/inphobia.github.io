@@ -27,7 +27,7 @@ cases presented here it made less sense.
 ## power and cooling
 - 8.5w power usage
 - airflow 150lfm
-- 55°c preferred temperature, storcli says it can do up to 115°c
+- 55&deg;c preferred temperature, storcli says it can do up to 115&deg;c
 
 ## opinion
 

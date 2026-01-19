@@ -5,7 +5,9 @@ description: powered off ssd and data retention
 params:
   eid: nojuice
 ---
+
 # how long will a powered off ssd retain it's data?
+
 only that question. write endurance, fw failure, etc are out of scope.
 how to backup your data will not be covered here either.
 
@@ -13,14 +15,18 @@ how to backup your data will not be covered here either.
 how important is your data? is one article or forum post enough to convince you?
 
 ## personal
-do you trust this post? i don't tend to get disks to not use them, these are the ones that i have as sample size.
+do you trust this post? i don't tend to get disks to not use them, these are
+the ones that i have as sample size.
 
 anecdotal:
 - samsung 840 pro had been powered off for 8 years without any data loss
 - 3 pm1643 drives for 4 months without data loss
 - 20 intel ssd dc s3510, no data loss after powered off just over a year
 
-the samsung 840 was a surprise, did not expect it would be intact. the others were at or just over the time i would start worrying. that's taking into account the conditions they operated in, how they were stored & the nand technology used. do _not_ take this as gospel.
+the samsung 840 was a surprise, did not expect it would be intact. the others
+were at or just over the time i would start worrying. that's taking into account
+the conditions they operated in, how they were stored & the nand technology used.
+do _not_ take this as gospel.
 
 ## jedec
 jedec's jesd218c & jesd219 go into more detail on "retention use", which boils down to:
@@ -33,7 +39,8 @@ the requirements set forth are:
 
 the bigger the delta between hot/active & cold/powered off: the longer it takes before the loss occurs.
 
-jesd218's primary purpose is to provide a standardized testing procedure, it stresses that there are many factors that determine data retention - no single nor set of tests can cover all use cases the remark goes.
+jesd218's primary purpose is to provide a standardized testing procedure, it
+stresses that there are many factors that determine data retention - no single nor set of tests can cover all use cases the remark goes.
 
 ### nand cell type
 a personal addendum: while drives are powered on the background patrol will refresh a cell's voltage when it goes outside a certain margin.
@@ -42,10 +49,15 @@ a personal addendum: while drives are powered on the background patrol will refr
 with slc the concept is simple: reads above a certain voltage level are true (1), reads below are false(0)
 
 #### mlc
-with mlc you store 2 bits per cell, so you need (2^2=4) voltage levels to represent all possible values. possible voltage drops will have a more pronounced & negative impact. while powered on the disk's background patrol will handle this, powered off it will retain data less long.
+with mlc you store 2 bits per cell, so you need (2\^2=4) voltage levels to represent
+all possible values. possible voltage drops will have a more pronounced & negative
+impact. while powered on the disk's background patrol will handle this, powered
+off it will retain data less long.
 
 #### tlc
-with tlc were are storing 3 bits per cell, so we're now at (2^3=8) voltage levels to represent all possible values, and like mlc the error margin will become even smaller, again leading to a reduction in data retention.
+with tlc were are storing 3 bits per cell, so we're now at (2\^3=8) voltage levels
+to represent all possible values, and like mlc the error margin will become even
+smaller, again leading to a reduction in data retention.
 
 
 ## publications by vendors
@@ -66,6 +78,9 @@ here are some extracts from data sheets, where enterprise class disks often ment
 ![dataloss2](dataloss2.webp)
 
 ## conclusion
-while i have yet to experience data loss due to a disk being powered off over too long a period, it's important to take note of what the vendors publish. having to mention a data retention period is not exactly good optics, neither is publishing an advisory on data loss when you're a storage company.
+while i have yet to experience data loss due to a disk being powered off over
+too long a period, it's important to take note of what the vendors publish. having
+to mention a data retention period is not exactly good optics, neither is publishing
+an advisory on data loss when you're a storage company.
 
 i keep my ssd's powered when possible.
