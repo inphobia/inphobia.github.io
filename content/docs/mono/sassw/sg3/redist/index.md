@@ -20,7 +20,7 @@ but still, don't use this if sanitize disks.
 > send and spits them back out in his image, this is what arrives at
 > the disk
 
-raid card modes like jbod or passthrough often say then won't intercept
+raid card modes like jbod or passthrough often say they won't intercept
 commands, tried it with the cards i have but i could not get it to work.
 some raid cards can be flashed to use a hba firmware and enable passthrough,
 but that's a story for another time and place.
@@ -203,5 +203,7 @@ FORMAT UNIT Complete
 dumb idea unless you have a very specific reason. windows will not be able to write data to
 these disks.
 
-you can use `--size=520` and `--size=4160` should you need have a need to. i haven't tested
+you can use `--size=520` and `--size=4160` should you need have a reason to. i haven't tested
 if the system the drive originally came will accept them again. i'd say chances are slim.
+
+## todo: 528byte drives

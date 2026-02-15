@@ -6,9 +6,6 @@ weight: 17
 params:
   eid: here
 ---
-> [!NOTE]
-> atm this page has the most useful info, more is coming
-
 # goal
 
 reuse enterprise drives in home pc.
@@ -32,7 +29,7 @@ reuse enterprise drives in home pc.
 
 {{% steps %}}
 1. ## find a device you want to connect.
-    in general this should be a sata or sas device. sata express and pcie devices can already be excluded.
+    in general this should be a sata or sas {{< elink "iface" "device" >}}. sata express and pcie devices can already be excluded.
 
 1. ## figure out what connection is needed
     have a look at the type of connector your device has to figure out the exact type. {{< elink "iface" "details here" >}}
@@ -97,22 +94,33 @@ reuse enterprise drives in home pc.
    ### {{< elink "storcli" "storcli" >}}
    - storcli is the software you'll need to interface with broadcom cards (hba and raid), required for firmware management: controller, drives, expanders
 
-1. ## todo install hba, drivers-firmware-airflow
-    - {{< elink "x670e" "finding a pcie slot" >}}
-    - airflow
-    - {{< elink "blitz" "upgrading controller firmware" >}}
-    - drivers
+1. ## install hba
+    also things to keep in mind like bandwidth, drivers, airflow, etc...
+    - {{< elink "x670e#which-slot-for-the-hba" "finding a pcie slot" >}}
+    - airflow: your controller will need some active airflow, so either
+      attach a tiny 40mm fan to it directly or make sure your case has
+      enough airflow. review the manual for your controller for the exact
+      airflow / power usage. the 9500 series are the least power hungry.
+    - {{< elink "blitz#upgrade-hba-driver-to-newest-version-and-reboot" "drivers" >}}
+    - {{< elink "blitz#upgrade-hba-firmware" "upgrading controller firmware" >}}
 
-1. ## todo connect device
+1. ## todo connect disks
+   - unscrew disk from cradle
+   - plug in cable
 
-1. ## todo initialize, update fw, reformat
-
+1. ## activate the disks
+   ### initialize
+   this is just a matter of opening windows' disk management, bringing the 
+   disks online and initializing them. if they error while initialzing you'll
+   likely need to change the sector size.
+   ### reformat to usable sector size if needed
+   windows doesn't like anything other than 512byte or 4k sectors
+   - {{< elink "redist" "reformat" >}}
    ### update disk firmware
+   don't forget this in particular for ssd's.
    - {{< elink "dskfw" "with storcli" >}}
    - {{< elink "fresh" "with sg3 utils" >}}
    - with powershell?
-   ### reformat to usable sector size if needed
-   - {{< elink "redist" "reformat" >}}
    ### t10-pi/dif/dix
    - todo disabling extra protection features
 

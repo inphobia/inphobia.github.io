@@ -15,12 +15,12 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.7462
+ - windows 11 pro 25h2 26200.7840
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 3.30
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
- - asrock challenger radeon rx9060xt 16gb
+ - asrock challenger radeon rx 9060 xt oc 16gb
  - antec p20ce case (includes 3 120mm fans)
  - 3 arctic p14 pwm pst case fans
  - {{< elink "topre" "realforce 1 105key iso layout" >}}
@@ -80,12 +80,12 @@ Number of Blocks = 3750232063
 Connector Name = C3   x1
 ```
 
-### sg3 utils
+### {{< elink "sg3utils" "sg3 utils" >}}
 {{< elink "arise" "self built" >}}
 
 based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451989291df695148cd8d8d03b3d987e
 
-### smartmontools
+### {{< elink "smartmon" "smartmontools" >}}
 version
 `smartctl pre-8.0-355 2026-01-05 [x86_64-w64-mingw32-w11-25H2] (GHA Build)`
 

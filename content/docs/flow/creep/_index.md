@@ -11,12 +11,15 @@ params:
 sometimes you outgrow your case, sometimes you want to shut down a 10 dvd drive tower when it's not in use. let's see where we can get.
 
 ## initial setup
-- working config from the {{< elink "here" "getting started flow" >}}
+- working config from the {{< elink "here" "getting started flow" >}} with following changes:
+  - windows 25h2
+  - ryzen 7 9800x3d
 - old tower case (antec 1200 or thermaltake armor)
 - sas expander ({{< elink "82885t" "adaptec 82885t" >}})
 - external sas cable (sff-8644 <-> sff-8644)
+- fan
 - power supply
-- {{< elink "paperclip" "paperclip" >}}
+- {{< elink "paperclip" "paperclip" >}} or other power widgets
 
 ## pics
 ![](creep1.jpg)

@@ -63,7 +63,7 @@ if you're already familiar:
 stuff that should show up here / my todo list
 
 - easy to find, mostly correct
-  - basic sas hba: airflow, bandwidth, external connections
+  - basic sas hba: ~~airflow~~, ~~bandwidth~~, external connections
   - using dbpoweramp: testing actually bit rotted discs, secure ripping pitfalls
   - full tower cases as drive storage
 - easy to find, mostly outdated (so these are updates or rewrites)
