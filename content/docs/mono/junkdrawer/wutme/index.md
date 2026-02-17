@@ -18,7 +18,7 @@ the history of this page (and the rest of the site) is kept on github, last chan
  - windows 11 pro 25h2 26200.7840
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
- - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 3.30
+ - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 3.50
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
  - asrock challenger radeon rx 9060 xt oc 16gb
  - antec p20ce case (includes 3 120mm fans)
@@ -38,10 +38,10 @@ these devices are always installed and powered up
 
 ```
 Model = HBA 9500-16e
-Firmware Package Build = 36.00.00.00
-Firmware Version = 36.00.00.00
-Bios Version = 09.71.00.00_36.00.00.00
-NVDATA Version = 36.00.00.14
+Firmware Package Build = 37.00.00.00
+Firmware Version = 37.00.00.00
+Bios Version = 09.73.00.00_37.00.00.00
+NVDATA Version = 37.00.00.14
 PSOC FW Version = 0x006E
 PSOC Part Number = 14790
 Driver Name = ItSas35
