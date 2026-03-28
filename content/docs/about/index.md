@@ -3,7 +3,7 @@ date: 2025-09-03T21:58:25+02:00
 title: about
 description: about
 type: docs
-weight: 550
+weight: 900
 params:
   eid: about
 ---

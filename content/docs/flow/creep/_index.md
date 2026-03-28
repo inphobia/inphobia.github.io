@@ -1,7 +1,7 @@
 ---
 title: adding external devices
 description: adding external devices
-weight: 26
+weight: 20
 params:
   eid: creep
 ---

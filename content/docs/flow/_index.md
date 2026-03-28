@@ -1,7 +1,7 @@
 ---
 title: flowcharts
 description: flowcharts
-weight: 25
+weight: 10
 params:
   eid: flow
 ---

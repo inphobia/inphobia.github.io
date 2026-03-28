@@ -1,5 +1,5 @@
 ---
-weight: 50
+weight: 200
 title: pages per topic
 description: pages per topic
 params:
