@@ -79,7 +79,7 @@ stuff that should show up here / my todo list
   - ~~going from 8644 to hba to 8644-8643 adapter (xi / xixe / xe)~~
   - ~~totally safe way to to combine a paperclip and psu~~
     - ~~document alternatives~~
-  - t10 dif stuff (mostly for seagate drives)
+  - t10 dif / dix stuff
   - ~~4160 blocksize mention~~
 - hard to find, incorrect, ancient. the things that took effort and time.
   - optical drives borked power connectors
@@ -108,4 +108,5 @@ stuff that should show up here / my todo list
   - ses communication
   - out of band connector cable
   - stp (sata tunneling protocol)
+- how about mentioning seachest and openseachest?
 - giving access to full resolution images somehow would be nice
