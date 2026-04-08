@@ -15,7 +15,7 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.8039
+ - windows 11 pro 25h2 26200.8117
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.10
