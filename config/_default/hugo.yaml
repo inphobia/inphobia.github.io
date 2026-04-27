@@ -42,7 +42,7 @@ params:
   images:
   - favicon.svg
   BookSection: docs
-  BookTheme: auto
+  BookTheme: dark
   BookSearch: false
   BookComments: false
   BookFavicon: favicon.svg

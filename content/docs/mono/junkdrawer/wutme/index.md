@@ -15,7 +15,7 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.8117
+ - windows 11 pro 25h2 26200.8246
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.10
@@ -52,7 +52,7 @@ Driver Version = 2.61.85.00
 
 {{< elink "storcli" "storcli" >}}
 
-`CLI Version = 007.3603.0000.0000 Oct 30, 2025`
+`CLI Version = 007.3703.0000.0000 Jan 16, 2026`
 
 
 ### external to internal sas converter
@@ -89,7 +89,7 @@ Connector Name = C3   x1
 ### sg3utils
 
 am using a {{< elink "arise" "self built" >}} version of {{< elink "sg3utils" >}}
-based on git commit https://github.com/doug-gilbert/sg3_utils/commit/2355dc4b451989291df695148cd8d8d03b3d987e
+based on git commit https://github.com/doug-gilbert/sg3_utils/commit/4645e17958e13493d72ff550c97623169666f9d4
 
 ### smartmontools
 
