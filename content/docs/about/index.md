@@ -12,7 +12,7 @@ params:
 built around the [hugo-book](https://themes.gohugo.io/themes/hugo-book/) theme, which implies using [hugo](https://gohugo.io/), find them here:
 
 - hugo-book theme
-  - site: https://hugo-book-demo.netlify.app/
+  - site: https://book.alxs.dev/
   - github: https://github.com/alex-shpak/hugo-book
   - on hugo themes: https://themes.gohugo.io/themes/hugo-book/
 - hugo
