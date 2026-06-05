@@ -15,7 +15,7 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.8246
+ - windows 11 pro 25h2 26200.8524
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.10
@@ -96,7 +96,15 @@ based on git commit https://github.com/doug-gilbert/sg3_utils/commit/4645e17958e
  {{< elink "smartmon" "smartmontools" >}}
 
 version
-`smartctl pre-8.0-355 2026-01-05 [x86_64-w64-mingw32-w11-25H2] (GHA Build)`
+
+```
+smartctl pre-8.0-446 2026-05-20 [x86_64-w64-mingw32-w11-25H2] (GHA Build)
+smartmontools release pre-8.0-446
+smartmontools git revision c44c74b2c3dc dated 2026-05-20 at 15:00:48
+smartmontools build host: x86_64-w64-mingw32
+smartmontools build with: C++11, GCC 14-win32, MinGW-w64 12.0.0, GNU libstdc++ 20250315
+reproducible build SOURCE_DATE_EPOCH: 1779289248 (2026-05-20 17:00:48)
+```
 
 ## sas specific - adhoc
 
