@@ -23,7 +23,7 @@ todo recheck: i got mine via windows update on 23h2,
 ## general specs
 - chipset: sas3004
 - host interface: pcie3 x8
-- connectors: 1 sff-8644
+- connectors: 1 sff-8643
 - sas 12, 6 & 3gb/s
 - sata 6 & 3gb/s
 

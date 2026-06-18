@@ -26,7 +26,7 @@ all invocations of sg3 binaries have the .exe extension in these documents to cl
 is being used.
 
 
-# todo words
+## todo words
 
 - PD- notation to indicate physical drives
 - drive letters are show if the disk has one assigned
