@@ -89,7 +89,7 @@ Connector Name = C3   x1
 ### sg3utils
 
 am using a {{< elink "arise" "self built" >}} version of {{< elink "sg3utils" >}}
-based on git commit https://github.com/doug-gilbert/sg3_utils/commit/4645e17958e13493d72ff550c97623169666f9d4
+based on git commit https://github.com/doug-gilbert/sg3_utils/commit/dc19214f48edf5a652ed9351f8f2e9489ff046d4
 
 ### smartmontools
 

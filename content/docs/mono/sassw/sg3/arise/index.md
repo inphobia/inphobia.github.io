@@ -90,11 +90,11 @@ find . -iname '-exe'
 
 ```
 ## check
-sg_inq version should be reported as 2.58, last official release reports 2.48:
+sg_inq version should be reported as 2.61, last official release reports 2.48:
 
 ```
 sg_inq.exe -V
-Version string: 2.58 20231213
+Version string: 2.61 20260521
 
 sg_inq.exe -V
 Version string: 2.48 20230606
