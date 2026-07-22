@@ -18,7 +18,7 @@ the history of this page (and the rest of the site) is kept on github, last chan
  - windows 11 pro 25h2 26200.8894
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
- - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.10
+ - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.43
  - 2 m.2 sn850x black 8tb drives, fw 638211wd
  - asrock challenger radeon rx 9060 xt oc 16gb
  - antec p20ce case (includes 3 120mm fans)
