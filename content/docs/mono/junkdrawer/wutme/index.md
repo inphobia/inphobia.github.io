@@ -15,7 +15,7 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.8655
+ - windows 11 pro 25h2 26200.8894
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.10
@@ -38,10 +38,10 @@ these devices are always installed and powered up
 
 ```
 Model = HBA 9500-16e
-Firmware Package Build = 37.00.00.00
-Firmware Version = 37.00.00.00
-Bios Version = 09.73.00.00_37.00.00.00
-NVDATA Version = 37.00.00.14
+Firmware Package Build = 38.00.00.00
+Firmware Version = 38.00.00.00
+Bios Version = 09.75.00.00_38.00.00.00
+NVDATA Version = 38.00.00.14
 PSOC FW Version = 0x006E
 PSOC Part Number = 14790
 Driver Name = ItSas35
