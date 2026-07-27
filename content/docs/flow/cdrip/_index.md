@@ -23,7 +23,12 @@ there is correct. so now it's just a matter of ripping each and every cd i have 
 - {{< elink "hz" "bunch" >}} of sata optical drives
 - dbpoweramp 2025-12-24
 
-## pics
+## pics of current wip
+![](cdripwip1.jpg)
+![](cdripwip2.jpg)
+![](cdripwip3.jpg)
+
+## pics of previous poc
 ![](cdrip1.jpg)
 ![](cdrip2.jpg)
 
