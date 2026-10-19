@@ -1,5 +1,6 @@
 ---
 title: Single Page
+draft: true
 layout: book
 menu:
   after:

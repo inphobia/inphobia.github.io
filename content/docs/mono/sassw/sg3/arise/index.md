@@ -5,7 +5,7 @@ params:
   eid: arise
 ---
 # why
-should you need any of the code changes done after release 1.48
+should you need any of the code changes done after release 1.49
 
 ## where
 - https://github.com/doug-gilbert/sg3_utils
@@ -90,11 +90,11 @@ find . -iname '-exe'
 
 ```
 ## check
-sg_inq version should be reported as 2.61, last official release reports 2.48:
+sg_inq version should be reported as 2.70, last official windows release reports 2.48:
 
 ```
 sg_inq.exe -V
-Version string: 2.61 20260521
+Version string: 2.70 20260921
 
 sg_inq.exe -V
 Version string: 2.48 20230606
@@ -102,7 +102,7 @@ Version string: 2.48 20230606
 ```
 
 ## shortcut if you're lazy
-i've made clone of the official sg3_utils repo with a workflow to crosscompile windows binaries. i have no intention on actively maintaining this, but
+i've made a clone of the official sg3_utils repo with a workflow to crosscompile windows binaries. i have no intention on actively maintaining this, but
 the github workflow should be pretty straightforward so you can reproduce it if you wish.
 
 [https://github.com/inphobia/sg3_utils](https://github.com/inphobia/sg3_utils)

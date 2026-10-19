@@ -15,7 +15,7 @@ noteworthy changes happen. if none happen i'll update it every 3 months or so.
 the history of this page (and the rest of the site) is kept on github, last change date is on the bottom of the page.
 
 ## battlestation
- - windows 11 pro 25h2 26200.9168
+ - windows 11 pro 26h2 26300.9711
  - amd ryzen 7 9800x3d
  - scythe mugen 6 black edition
  - {{< elink "x670e" "asrock x670e pg lightning motherboard" >}}, uefi 4.43
@@ -89,7 +89,7 @@ Connector Name = C3   x1
 ### sg3utils
 
 am using a {{< elink "arise" "self built" >}} version of {{< elink "sg3utils" >}}
-based on git commit https://github.com/doug-gilbert/sg3_utils/commit/dc19214f48edf5a652ed9351f8f2e9489ff046d4
+based on git commit https://github.com/doug-gilbert/sg3_utils/commit/1929463554c5dc749c5a89bcefb2c88a08d45575
 
 ### smartmontools
 
@@ -111,7 +111,7 @@ reproducible build SOURCE_DATE_EPOCH: 1779289248 (2026-05-20 17:00:48)
 these devices get powered on when needed.
 
 ### netapp ds224c diskshelfs
- - 3 shelves
+ - 4 shelves
  - 2 power supplies each
  - 2 iom12a fw0401 each
  - around 50 x371 sas ssd drives
